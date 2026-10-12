@@ -1279,8 +1279,10 @@
   "files": {
     ".gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
     ".gitignore": "bec9330bc03b176339c9657b20d703cd1c23ecd12635e489dc820848f9755ad1",
+    "LICENSE": "e95b7d546755586d8577af2ca86bd49dc5952c9eb005cf6a21b7e0d3a5a76e9d",
+    "NOTICE.md": "ab3f5d79956ddbe07269c1b5971e209bd3da0cd7f307fd272666a652aa9f9482",
     "original-metadata/openai.yaml": "44b8c7794559e360dbf6cbed7528b137cf5c37b3f11659ba6a5cfeed91ad291a",
-    "README.md": "508ec5e678eea9bc3df06cd0eba564cb693bf27cbaa9e00ae414e2a6e201096b",
+    "README.md": "5e2a07f84b7284bbc1b58c6b6742efcaa83a68b676bdd55e3cf47114e72b6a72",
     "skills/safesell-product-visuals/agents/openai.yaml": "41bfe5b075194f29a4c98e7f84905eb11ac1be86b3907508fb3350df2ce86239",
     "skills/safesell-product-visuals/assets/approved-spatial-type-v3.png": "177ac36c2a134ea2bf675caac174eada1af95744f9cfd10a24ffe1b4ae79ec67",
     "skills/safesell-product-visuals/assets/approved-style.json": "a0de31c18bb60f602acfc38746ae0061a9ed39dd2104c72196dc44f8420c7eb6",
@@ -1492,5 +1494,8 @@
     "skills/safesell-product-visuals/scripts/trustmark_local.py": "6f1e186084de4b81694c2f6cffc3c0d0f867c0f2ae45c2e867ae9178a2d8f907",
     "skills/safesell-product-visuals/scripts/verify_pixel_watermark.py": "d192f80088f4fe5e91000e77c8cf3dcf878501c38268ee1365e241b3f559edef",
     "skills/safesell-product-visuals/SKILL.md": "ca317d69d6183d26335207103c324257b79e01fe99bce6705ef1f552c0a26ce9"
-  }
+  },
+  "repository": "https://github.com/thitrang20160-cell/ZE",
+  "visibility": "public",
+  "original_code_license": "MIT"
 }

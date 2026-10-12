@@ -1,4 +1,4 @@
-# 跨境电商超强表现力生图 Skill
+# ZE — 跨境电商超强表现力生图 Skill
 
 你的「塞星商品视觉导演 / safesell-product-visuals」v1.9 完整分发版。
 
@@ -6,14 +6,14 @@
 
 ## 安装到其他 Codex
 
-仓库：https://github.com/thitrang20160-cell/crossborder-product-visuals-skill（私有，需有访问权限的 GitHub 账号）。
+仓库：https://github.com/thitrang20160-cell/ZE（公开开源，无需 GitHub 登录即可下载）。
 
 将 `skills/safesell-product-visuals` 整个目录安装到当前用户的全局技能目录。可以让目标 Codex 使用其内置 skill-installer，仓库路径选 `skills/safesell-product-visuals`；或者拉取仓库后复制整个目录。先检查目标环境的技能发现目录及同名技能，已有同名版本先备份，只保留一个生效版本，其他技能与设置不变。不要只复制 SKILL.md。
 
 复制给另一台 Codex：
 
 ```text
-请拉取 https://github.com/thitrang20160-cell/crossborder-product-visuals-skill，先读 README.md，将 skills/safesell-product-visuals 整套安装到当前用户的全局技能目录，供多个项目使用。使用当前环境的实际路径，备份同名旧版，保留其他技能与配置，避免重复生效。保持按任务自动识别调用。安装后核对 distribution-manifest.json 的文件哈希，运行配方库 validate 并检查脚本可用性，告诉我是否需要重启 Codex。可选检测功能需要的模型或账号密钥单独说明，缺失不能报告已通过。出现问题主动调查、修复并复测，不把未完成报告为成功。
+请拉取 https://github.com/thitrang20160-cell/ZE，先读 README.md，将 skills/safesell-product-visuals 整套安装到当前用户的全局技能目录，供多个项目使用。使用当前环境的实际路径，备份同名旧版，保留其他技能与配置，避免重复生效。保持按任务自动识别调用。安装后核对 distribution-manifest.json 的文件哈希，运行配方库 validate 并检查脚本可用性，告诉我是否需要重启 Codex。可选检测功能需要的模型或账号密钥单独说明，缺失不能报告已通过。出现问题主动调查、修复并复测，不把未完成报告为成功。
 ```
 
 ## 跨机路径与依赖
@@ -37,3 +37,9 @@ python -X utf8 scripts/detect_image_signals.py --help
 分发时只将原 `AI生图SKILL.md` 改为标准入口 `SKILL.md`，文件内容完全保留；`agents/openai.yaml` 增加显式允许自动调用的配置，原版保存在 `original-metadata/openai.yaml`。其他原文件字节不变。完整清单和原始哈希见 `distribution-manifest.json`。声明自动调用可用，不保证每个无关任务都会加载此技能。
 
 原样本中的第三方品牌与图片仅作既有参考资产；未为其授予新商用许可。Adobe BCH/DataLayer 辅助实现的原 MIT 许可证保留在 `scripts/_trustmark_ecc/LICENSE`。本分发不改写技能原有的审核限制，不自动接入或发布业务系统。
+
+
+## 开源许可
+
+原创技能说明、配方结构和原创辅助代码采用 MIT 许可证，见仓库根目录 `LICENSE`。
+第三方代码、参考图片、品牌及商标的权利与适用范围见 `NOTICE.md`；公开下载不为参考素材授予额外商用权利。
