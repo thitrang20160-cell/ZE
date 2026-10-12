@@ -1,0 +1,73 @@
+{
+  "version": "1.2",
+  "sku": "877788390",
+  "category": "宠物用品",
+  "image_type": "feature",
+  "profile": {
+    "morphology": "bowl-fountain",
+    "action": "flow",
+    "style": "gentle-fluid",
+    "route": "ai-reference-guided"
+  },
+  "route": "ai-reference-guided",
+  "recipe": {
+    "id": "pet-gentle-fluid",
+    "version": 1,
+    "mode": "explore"
+  },
+  "product_identity": {
+    "reference_files": [
+      "source.jpg"
+    ],
+    "locked": [
+      "white cylindrical rounded container, green inset basin and rim, single white daisy with yellow center on middle stem, visible source water paths, Catit low-front logo"
+    ],
+    "unknown": [
+      "hidden construction",
+      "precise dimensions",
+      "colorimetry"
+    ]
+  },
+  "message": {
+    "exact_copy": [
+      "FLOW",
+      "A LITTLE EVERYDAY JOY"
+    ],
+    "evidence": []
+  },
+  "composition": {
+    "action": "flow",
+    "first_read": "product",
+    "camera": "close low three-quarter basin dominant",
+    "visible_result": "花形水口、真实水线和柔和流动"
+  },
+  "spatial_type": {
+    "enabled": true,
+    "relationship": "FLOW behind fountain and partly occluded by flower; local copy beside actual descending water"
+  },
+  "effects": {
+    "enabled": false,
+    "scope": null
+  },
+  "material_expression": {
+    "enabled": false,
+    "intent": "花形水口、真实水线和柔和流动"
+  },
+  "review_set": false,
+  "design_intent": "花形水口、真实水线和柔和流动",
+  "transfer": [
+    "水口到盆面的连续路径决定视觉动势",
+    "动物可作为远景关联，不与商品争主角"
+  ],
+  "reusable_pattern": "{current_fountain} 保持 {source_flow_configuration}，真实水线连接出口到盆面；{headline} 在产品后层，{local_copy} 贴水线方向，柔和自然光突出水与塑胶，不造过滤/健康指标。",
+  "style_references": [
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/sample-05.jpg",
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/sample-09.jpg"
+  ],
+  "additional_sources": [],
+  "limits": [
+    "One SKU and one advertising image type; not cross-product validated",
+    "source-guided visual rendering, not CAD or hidden-engineering verification",
+    "baked raster text; not marketplace primary-image compliance approval"
+  ]
+}

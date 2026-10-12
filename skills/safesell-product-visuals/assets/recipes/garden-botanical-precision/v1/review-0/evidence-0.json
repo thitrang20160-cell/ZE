@@ -1,0 +1,73 @@
+{
+  "version": "1.2",
+  "sku": "19864126",
+  "category": "户外园艺",
+  "image_type": "material",
+  "profile": {
+    "morphology": "hinged-cutting-tool",
+    "action": "display",
+    "style": "botanical-precision",
+    "route": "ai-reference-guided"
+  },
+  "route": "ai-reference-guided",
+  "recipe": {
+    "id": "garden-botanical-precision",
+    "version": 1,
+    "mode": "explore"
+  },
+  "product_identity": {
+    "reference_files": [
+      "source.jpg"
+    ],
+    "locked": [
+      "two black/orange handle arms, black bypass upper blade, silver lower counterblade, original single silver pivot and spring position, Fiskars white logo"
+    ],
+    "unknown": [
+      "hidden construction",
+      "precise dimensions",
+      "colorimetry"
+    ]
+  },
+  "message": {
+    "exact_copy": [
+      "EDGE",
+      "GRIP MEETS PRECISION"
+    ],
+    "evidence": []
+  },
+  "composition": {
+    "action": "display",
+    "first_read": "product",
+    "camera": "near macro diagonal pruner with pivot/softgrip dominant, entire recognizable silhouette",
+    "visible_result": "软握柄、精密枢轴与刃面材质对比"
+  },
+  "spatial_type": {
+    "enabled": true,
+    "relationship": "EDGE behind blade/pivot; local copy follows handle axis"
+  },
+  "effects": {
+    "enabled": false,
+    "scope": null
+  },
+  "material_expression": {
+    "enabled": true,
+    "intent": "软握柄、精密枢轴与刃面材质对比"
+  },
+  "review_set": false,
+  "design_intent": "软握柄、精密枢轴与刃面材质对比",
+  "transfer": [
+    "宏观剪体与局部握柄材质并置",
+    "斜向刀轴决定大字交叉与副字方向"
+  ],
+  "reusable_pattern": "{current_hinged_tool} 保持可见开合状态与零件关系，{material_detail} 位于近景，{headline} 后层被刀口/枢轴遮挡；{local_copy} 顺握柄轴线，硬刃/软握柄用掠光区分，不伪造切割或耐用测试。",
+  "style_references": [
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/sample-07.jpg",
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/sample-08.jpg"
+  ],
+  "additional_sources": [],
+  "limits": [
+    "One SKU and one advertising image type; not cross-product validated",
+    "source-guided visual rendering, not CAD or hidden-engineering verification",
+    "baked raster text; not marketplace primary-image compliance approval"
+  ]
+}

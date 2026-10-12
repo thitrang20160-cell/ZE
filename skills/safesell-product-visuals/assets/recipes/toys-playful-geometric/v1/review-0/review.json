@@ -1,0 +1,125 @@
+{
+  "checks": {
+    "product_identity": {
+      "status": "pass",
+      "evidence": "候选共五环，红、橙、黄、柠檬绿依次递减堆叠，最小蓝环被提起，白色圆顶轴和红标白底座符合两张原图。"
+    },
+    "copy_and_claims": {
+      "status": "pass",
+      "evidence": "PLAY、LIFT. STACK. REPEAT. 完整可辨且与 brief 一致，无新增年龄或教育效果主张。"
+    },
+    "contact_and_operation": {
+      "status": "pass",
+      "evidence": "拇指与后方手指实际夹住蓝环，蓝环孔位接近白轴轴线并已离开轴顶，其余四环稳定堆叠。"
+    },
+    "style_match": {
+      "status": "pass",
+      "evidence": "近景部件、后层巨字和局部动作文字呼应两个锚点，彩色几何场景符合 playful-geometric。"
+    },
+    "product_priority": {
+      "status": "pass",
+      "evidence": "完整底座和环组占据中央，手只参与上方蓝环，背景几何道具保持次要层次。"
+    },
+    "purpose_expression": {
+      "status": "pass",
+      "evidence": "蓝环提起、白轴露出和递减环组共同清楚表达拿取与堆叠操作。"
+    },
+    "material_scale": {
+      "status": "pass",
+      "evidence": "各环圆润光泽与原图一致，蓝环相对绿环及手部尺度自然，没有新增纹理或内部层。"
+    },
+    "spatial_type": {
+      "status": "pass",
+      "evidence": "PLAY 位于后层并被蓝环和白轴局部遮挡，副文案按白轴纵向分行排布。"
+    },
+    "effects": {
+      "status": "not-applicable",
+      "evidence": "brief 关闭作用点特效，候选没有运动轨迹或功能效果演绎。"
+    },
+    "set_consistency": {
+      "status": "not-applicable",
+      "evidence": "review_set 为 false，本次审核单张 operation。"
+    }
+  },
+  "nonblocking_unknowns": [
+    "底座内部结构、材料成分和精确尺寸未展示，且本图未作相关主张。"
+  ],
+  "judgment": "pass",
+  "main_revision": null,
+  "observed_copy": [
+    "PLAY",
+    "LIFT.",
+    "STACK.",
+    "REPEAT.",
+    "fisher-price"
+  ],
+  "scope_limits": [
+    "确认当前五环变体及可见操作，不确认材料成分、教育效果或平台发布资格。"
+  ],
+  "schema_version": 1,
+  "review_id": "12-toys-v1-independent-review",
+  "recipe_id": "toys-playful-geometric",
+  "recipe_version": 1,
+  "sku": "405352430",
+  "purpose": "operation",
+  "reviewed_at": "2026-10-08T16:24:10.435747+00:00",
+  "profile": {
+    "morphology": "stacked-rings",
+    "action": "lift-ring",
+    "style": "playful-geometric",
+    "route": "ai-reference-guided"
+  },
+  "reviewer": {
+    "kind": "ai-vision",
+    "independent_context": true,
+    "model_or_tool": "collaboration agent /root/visual_auditor",
+    "execution_record": {
+      "file": "evidence-2.json",
+      "sha256": "47b46c1e3e788e5219eb1152bc26add1d8f3b0ee5305bc62777c9c2216c0015a"
+    }
+  },
+  "brief": {
+    "file": "evidence-0.json",
+    "sha256": "e5dd1e623ccb42c0f1f0761ca04d9ed2566fae1ef3169bd6a37b9c62ee709fc5"
+  },
+  "output": {
+    "file": "evidence-1.png",
+    "sha256": "d76d0b0e2f49118ae6e75b38e625ba6a74d8b0949474ff61f7a67d8b5f99dcd1"
+  },
+  "sources": [
+    {
+      "file": "evidence-3.jpg",
+      "sha256": "8c902d169ac61e9c73d5b473711cce0d704daccebe65320c388e24722d824ecf",
+      "role": "product-identity"
+    },
+    {
+      "file": "evidence-4.json",
+      "sha256": "d19a60646adb8e47411a7af2514ac4375443fb9613d314a74dc1121b697e9a84",
+      "role": "copy-evidence"
+    },
+    {
+      "file": "evidence-5.jpg",
+      "sha256": "8a5b2b0642e84df18cc787ad7ad9e17fa406f98b0d3b6403d21c1063580233e2",
+      "role": "product-identity"
+    }
+  ],
+  "style_references": [
+    {
+      "file": "evidence-6.jpg",
+      "sha256": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+      "role": "style-reference"
+    },
+    {
+      "file": "evidence-7.jpg",
+      "sha256": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+      "role": "style-reference"
+    }
+  ],
+  "metrics": {
+    "generation_calls": 1,
+    "revision_calls": 0,
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_receipt": null
+  }
+}

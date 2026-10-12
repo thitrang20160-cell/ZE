@@ -1,0 +1,113 @@
+{
+  "checks": {
+    "product_identity": {
+      "status": "pass",
+      "evidence": "v2 保留原图的透明圆碗与盖、白格栅篮、中央白泵柱、红色 OXO 标识黑圆帽及偏置黑按钮。"
+    },
+    "copy_and_claims": {
+      "status": "pass",
+      "evidence": "SPIN、PRESS. SPIN. SERVE. 与 brief 一致，无新增数字或性能承诺。"
+    },
+    "contact_and_operation": {
+      "status": "pass",
+      "evidence": "单手掌面及手指贴合中央泵帽上表面，接触位置正确且未穿入盖体。"
+    },
+    "style_match": {
+      "status": "pass",
+      "evidence": "近景产品、后层巨字与沿盖沿排布的指令承接 sample-09.jpg 的空间文字方式。"
+    },
+    "product_priority": {
+      "status": "pass",
+      "evidence": "透明碗和按压触点占据中央主要区域，蔬菜道具与厨房背景保持次要层次。"
+    },
+    "purpose_expression": {
+      "status": "pass",
+      "evidence": "泵帽接触、中央轴线和透明容器内篮层均可见，操作主题明确。"
+    },
+    "material_scale": {
+      "status": "pass",
+      "evidence": "透明塑料、白篮和黑帽质感有清晰区分，手及蔬菜的相对尺度自然。"
+    },
+    "spatial_type": {
+      "status": "pass",
+      "evidence": "SPIN 下缘与透明后碗沿形成遮挡关系，局部指令顺盖沿弧线排布。"
+    },
+    "effects": {
+      "status": "pass",
+      "evidence": "左弧向上后方、右弧向下前方，沿同一碗轴形成一致环向，且只在碗沿外侧出现。"
+    },
+    "set_consistency": {
+      "status": "not-applicable",
+      "evidence": "review_set 为 false，本次审核单张操作图。"
+    }
+  },
+  "nonblocking_unknowns": [
+    "隐藏传动结构、实际尺寸和精确色度无法确认，且本图未作相关主张。"
+  ],
+  "judgment": "pass",
+  "main_revision": null,
+  "observed_copy": [
+    "SPIN",
+    "PRESS. SPIN. SERVE.",
+    "OXO"
+  ],
+  "scope_limits": [
+    "确认可见操作和广告表达，不确认实测转速、干燥效果或平台发布资格。"
+  ],
+  "schema_version": 1,
+  "review_id": "02-kitchen-v2-independent-review",
+  "recipe_id": "kitchen-fresh-kinetic",
+  "recipe_version": 1,
+  "sku": "32958517",
+  "purpose": "operation",
+  "reviewed_at": "2026-10-08T15:33:00.865018+00:00",
+  "profile": {
+    "morphology": "transparent-bowl-pump",
+    "action": "press-pump",
+    "style": "fresh-kinetic",
+    "route": "ai-reference-guided"
+  },
+  "reviewer": {
+    "kind": "ai-vision",
+    "independent_context": true,
+    "model_or_tool": "collaboration agent /root/visual_auditor",
+    "execution_record": {
+      "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\02-kitchen\\review-execution-v2.json",
+      "sha256": "dc93d6e37e214be1cbd7dc02f0b45dd1df6846b9fb06e3255439488cd21690e5"
+    }
+  },
+  "brief": {
+    "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\02-kitchen\\brief.json",
+    "sha256": "fa66f7beb4d3e840746f693852e56b9f753f299d8a46379742ceeea7e931dd43"
+  },
+  "output": {
+    "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\02-kitchen\\candidate-v2.png",
+    "sha256": "b4005008f6a61a67638e81124454fa1c889e028a72951ef295a669230c5832d7"
+  },
+  "sources": [
+    {
+      "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\02-kitchen\\source.jpg",
+      "sha256": "0a3bf6638f9d17ca87db8d54bb43b5d926cb789e555f731232fbce4050356b69",
+      "role": "product-identity"
+    },
+    {
+      "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\02-kitchen\\source-evidence.json",
+      "sha256": "2811d3f4d04fe789e06b59265290bd4e7ad737c04e4fcf25d7dfb00714ad04c4",
+      "role": "copy-evidence"
+    }
+  ],
+  "style_references": [
+    {
+      "file": "C:\\Users\\TY\\.codex\\skills\\safesell-product-visuals\\assets\\sample-09.jpg",
+      "sha256": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+      "role": "style-reference"
+    }
+  ],
+  "metrics": {
+    "generation_calls": 2,
+    "revision_calls": 1,
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_receipt": null
+  }
+}

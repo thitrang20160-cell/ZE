@@ -1,0 +1,113 @@
+{
+  "checks": {
+    "product_identity": {
+      "status": "pass",
+      "evidence": "v3 保留原图机身、按钮顺序、侧肋和尘杯，右侧高立工具的上段、圆形侧部细节及底座配置均可见。"
+    },
+    "copy_and_claims": {
+      "status": "pass",
+      "evidence": "CLEAN、READY WHEN YOU ARE 与 brief 一致，Shark 标识可读，无新增性能数字。"
+    },
+    "contact_and_operation": {
+      "status": "not-applicable",
+      "evidence": "本图为静态展示，机身插入充电座，底座与台面接触自然。"
+    },
+    "style_match": {
+      "status": "pass",
+      "evidence": "后层大衬线字、石材场景和集中产品高光延续风格锚点的商业质感。"
+    },
+    "product_priority": {
+      "status": "pass",
+      "evidence": "完整主体占据中央，轮廓高光、按钮和附件从深色背景中清楚分离。"
+    },
+    "purpose_expression": {
+      "status": "pass",
+      "evidence": "细长机身、整齐肋纹与归位附件共同表达精确秩序的 hero 主题。"
+    },
+    "material_scale": {
+      "status": "pass",
+      "evidence": "灰色硬壳、黑色附件及透明尘杯材质分离，细肋尺度与来源一致。"
+    },
+    "spatial_type": {
+      "status": "pass",
+      "evidence": "CLEAN 被机身遮挡，副文案位于右侧并顺机身纵向向右上排布。"
+    },
+    "effects": {
+      "status": "not-applicable",
+      "evidence": "brief 关闭特效，候选没有气流或清洁效果演绎。"
+    },
+    "set_consistency": {
+      "status": "not-applicable",
+      "evidence": "review_set 为 false，本次审核单张 hero。"
+    }
+  },
+  "nonblocking_unknowns": [
+    "隐藏充电连接、实际尺寸和精确色度无法确认，且本图未作相关主张。"
+  ],
+  "judgment": "pass",
+  "main_revision": null,
+  "observed_copy": [
+    "CLEAN",
+    "READY WHEN YOU ARE",
+    "Shark"
+  ],
+  "scope_limits": [
+    "单张静态广告审核，不确认清洁性能、充电状态或平台发布资格。"
+  ],
+  "schema_version": 1,
+  "review_id": "03-cleaning-v3-independent-review",
+  "recipe_id": "cleaning-precision-clean",
+  "recipe_version": 1,
+  "sku": "2182471405",
+  "purpose": "hero",
+  "reviewed_at": "2026-10-08T15:41:21.770980+00:00",
+  "profile": {
+    "morphology": "handheld-contact-appliance",
+    "action": "display",
+    "style": "precision-clean",
+    "route": "ai-reference-guided"
+  },
+  "reviewer": {
+    "kind": "ai-vision",
+    "independent_context": true,
+    "model_or_tool": "collaboration agent /root/visual_auditor",
+    "execution_record": {
+      "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\03-cleaning\\review-execution-v3.json",
+      "sha256": "6451bfdd8be217a22f7387fe99f74e54d9fe2d2d4f1463b62e40dd8472068df6"
+    }
+  },
+  "brief": {
+    "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\03-cleaning\\brief.json",
+    "sha256": "4e0f22b0afc81ae8d5181e58349c008af8f9f7a890d9d54f0a65bc837056c33f"
+  },
+  "output": {
+    "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\03-cleaning\\candidate-v3.png",
+    "sha256": "ebc0df7aafdc3574856685ba046918ae0e25a3e274a0eb96cf46f160959ea74c"
+  },
+  "sources": [
+    {
+      "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\03-cleaning\\source.jpg",
+      "sha256": "5ca063e4285cfe365f4a43b83e6b199b5eb68e446a68b056104f9f42e7716db8",
+      "role": "product-identity"
+    },
+    {
+      "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\03-cleaning\\source-evidence.json",
+      "sha256": "2a0e42726e24e40e1c7278c4be71fad6852265fd326c7323eff1e54e6fefdd58",
+      "role": "copy-evidence"
+    }
+  ],
+  "style_references": [
+    {
+      "file": "C:\\Users\\TY\\.codex\\skills\\safesell-product-visuals\\assets\\recipes\\steamer\\01-hero.png",
+      "sha256": "57d0a0881c52235af54f5470c528b617b849c83bc9bd2e6d464689da01414470",
+      "role": "style-reference"
+    }
+  ],
+  "metrics": {
+    "generation_calls": 3,
+    "revision_calls": 2,
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_receipt": null
+  }
+}

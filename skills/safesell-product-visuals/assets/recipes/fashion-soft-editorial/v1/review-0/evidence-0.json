@@ -1,0 +1,73 @@
+{
+  "version": "1.2",
+  "sku": "17472857032",
+  "category": "服饰箱包",
+  "image_type": "use-scene",
+  "profile": {
+    "morphology": "flexible-container",
+    "action": "carry",
+    "style": "soft-editorial",
+    "route": "ai-reference-guided"
+  },
+  "route": "ai-reference-guided",
+  "recipe": {
+    "id": "fashion-soft-editorial",
+    "version": 1,
+    "mode": "explore"
+  },
+  "product_identity": {
+    "reference_files": [
+      "source.jpg"
+    ],
+    "locked": [
+      "one pale-pink rounded rectangular BAGSMART tote, two long matching webbing handles continuing down front, seam layout, central small snap tab, small low-front BAGSMART wordmark"
+    ],
+    "unknown": [
+      "hidden construction",
+      "precise dimensions",
+      "colorimetry"
+    ]
+  },
+  "message": {
+    "exact_copy": [
+      "CARRY",
+      "FOLD. GO."
+    ],
+    "evidence": []
+  },
+  "composition": {
+    "action": "carry",
+    "first_read": "product",
+    "camera": "close headless forearm hand grip both loops, whole bag front dominates",
+    "visible_result": "提带受力与轻软布面垂坠"
+  },
+  "spatial_type": {
+    "enabled": true,
+    "relationship": "CARRY behind straps/top edge; local copy follows downward fabric crease"
+  },
+  "effects": {
+    "enabled": false,
+    "scope": null
+  },
+  "material_expression": {
+    "enabled": false,
+    "intent": "提带受力与轻软布面垂坠"
+  },
+  "review_set": false,
+  "design_intent": "提带受力与轻软布面垂坠",
+  "transfer": [
+    "手掌提拿只占次要区域",
+    "布面受力褶线决定字向与尺度"
+  ],
+  "reusable_pattern": "单手以真实抓握提起 {current_soft_bag} 的 {verified_handles}，{fabric} 自然垂坠；{headline} 被带和包口遮挡，副字顺受力折线。保留开口、缝线与 logo，不加未确认口袋、拉链或承重。",
+  "style_references": [
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/recipes/steamer/01-hero.png",
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/sample-09.jpg"
+  ],
+  "additional_sources": [],
+  "limits": [
+    "One SKU and one advertising image type; not cross-product validated",
+    "source-guided visual rendering, not CAD or hidden-engineering verification",
+    "baked raster text; not marketplace primary-image compliance approval"
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "checks": {
+    "product_identity": {
+      "status": "pass",
+      "evidence": "候选保留原图黄黑机身、银黑夹头、编号扭矩环、通风口、扳机和握柄，底部仍为未装电池的裸机接口。"
+    },
+    "copy_and_claims": {
+      "status": "pass",
+      "evidence": "DRIVE、BUILT TO GET HANDS ON 与 brief 一致，20V MAX、BRUSHLESS 及可见扭矩刻度均来自原图标识。"
+    },
+    "contact_and_operation": {
+      "status": "not-applicable",
+      "evidence": "裸机静置于岩石台面，没有手持、钻孔或旋转动作。"
+    },
+    "style_match": {
+      "status": "pass",
+      "evidence": "近景机械质感、后层巨字和沿主轴副文案呼应两个锚点，黄黑场景符合 industrial-axis。"
+    },
+    "product_priority": {
+      "status": "pass",
+      "evidence": "完整电钻居中，黄壳、夹头和握柄清晰，深色背景与前景岩石保持次要层次。"
+    },
+    "purpose_expression": {
+      "status": "pass",
+      "evidence": "倾斜夹头轴线、完整裸机及工业材料对比明确表达 campaign 主题。"
+    },
+    "material_scale": {
+      "status": "pass",
+      "evidence": "金属夹头、黄壳、黑色橡胶和细纹相互分离，握柄纹路及机身尺度与来源相符。"
+    },
+    "spatial_type": {
+      "status": "pass",
+      "evidence": "DRIVE 位于夹头和机身后方并被遮挡，副文案顺夹头斜向轴线排布。"
+    },
+    "effects": {
+      "status": "not-applicable",
+      "evidence": "brief 关闭特效，候选只有场景光照，没有转动、火花或工作效果演绎。"
+    },
+    "set_consistency": {
+      "status": "not-applicable",
+      "evidence": "review_set 为 false，本次审核单张 campaign。"
+    }
+  },
+  "nonblocking_unknowns": [
+    "隐藏接口细节、实际尺寸及内部结构无法确认，且本图未作相关主张。"
+  ],
+  "judgment": "pass",
+  "main_revision": null,
+  "observed_copy": [
+    "DRIVE",
+    "BUILT TO GET HANDS ON",
+    "DEWALT",
+    "20V MAX",
+    "BRUSHLESS",
+    "7",
+    "9",
+    "11",
+    "13"
+  ],
+  "scope_limits": [
+    "不确认套装内容之外的配置、实测性能或平台发布资格。"
+  ],
+  "schema_version": 1,
+  "review_id": "08-tools-v1-independent-review",
+  "recipe_id": "tools-industrial-axis",
+  "recipe_version": 1,
+  "sku": "251417300",
+  "purpose": "campaign",
+  "reviewed_at": "2026-10-08T16:09:26.889389+00:00",
+  "profile": {
+    "morphology": "rigid-rotary-tool",
+    "action": "display",
+    "style": "industrial-axis",
+    "route": "ai-reference-guided"
+  },
+  "reviewer": {
+    "kind": "ai-vision",
+    "independent_context": true,
+    "model_or_tool": "collaboration agent /root/visual_auditor",
+    "execution_record": {
+      "file": "evidence-2.json",
+      "sha256": "c96f0a077785ee66f2d6a365458285eb41cb6bd710f23274d8c6b0b58e661278"
+    }
+  },
+  "brief": {
+    "file": "evidence-0.json",
+    "sha256": "ac7f030fc8e96d7bbffa823485113c9b610a37b230239be4b5df631c4496b12e"
+  },
+  "output": {
+    "file": "evidence-1.png",
+    "sha256": "971a6222be4daeaab3b6231b677c5bcb725d46398ebeb8d3a5157b5605f2aebe"
+  },
+  "sources": [
+    {
+      "file": "evidence-3.jpg",
+      "sha256": "5d1c7de3ab495b09018c8ed0a5d8f1de8eba976ce6e34c77d7a60bb32854da6b",
+      "role": "product-identity"
+    },
+    {
+      "file": "evidence-4.json",
+      "sha256": "b4e2a5c7109236d6e1ecf78f0d3efcf7c14f10f283b7ce1c318a71b75c3cbc04",
+      "role": "copy-evidence"
+    }
+  ],
+  "style_references": [
+    {
+      "file": "evidence-5.jpg",
+      "sha256": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+      "role": "style-reference"
+    },
+    {
+      "file": "evidence-6.jpg",
+      "sha256": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+      "role": "style-reference"
+    }
+  ],
+  "metrics": {
+    "generation_calls": 1,
+    "revision_calls": 0,
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_receipt": null
+  }
+}

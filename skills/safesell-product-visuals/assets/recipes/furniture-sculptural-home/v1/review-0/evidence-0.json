@@ -1,0 +1,63 @@
+{
+  "version": "1.2",
+  "sku": "15689309055",
+  "category": "家具家居",
+  "image_type": "campaign",
+  "route": "ai-reference-guided",
+  "profile": {
+    "morphology": "rigid-pedestal",
+    "action": "support",
+    "style": "sculptural-home",
+    "route": "ai-reference-guided"
+  },
+  "recipe": {
+    "id": "furniture-sculptural-home",
+    "version": 1,
+    "mode": "explore"
+  },
+  "product_identity": {
+    "reference_files": [
+      "source.jpg"
+    ],
+    "locked": [
+      "one round thick tabletop; one narrow flat S-wave upright; two-level round foot; pale lavender satin finish; original relative proportions"
+    ],
+    "unknown": [
+      "hidden joinery",
+      "exact dimensions",
+      "colorimetry"
+    ]
+  },
+  "message": {
+    "exact_copy": [
+      "WAVE",
+      "A LITTLE PLAY"
+    ],
+    "evidence": []
+  },
+  "composition": {
+    "action": "display",
+    "camera": "low three-quarter, whole table visible, near tabletop",
+    "first_read": "product",
+    "visible_result": "silhouette and curved support"
+  },
+  "spatial_type": {
+    "enabled": true,
+    "main": "WAVE behind pedestal, partially occluded by table; local copy follows tabletop perspective"
+  },
+  "effects": {
+    "enabled": false
+  },
+  "material_expression": {
+    "enabled": false
+  },
+  "review_set": false,
+  "style_references": [
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/recipes/steamer/01-hero.png",
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/sample-07.jpg"
+  ],
+  "limits": [
+    "single representative advertising concept; no platform-main-image approval",
+    "source-led appearance, not CAD"
+  ]
+}

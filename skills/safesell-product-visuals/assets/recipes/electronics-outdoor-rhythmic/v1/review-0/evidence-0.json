@@ -1,0 +1,72 @@
+{
+  "version": "1.2",
+  "sku": "5433539246",
+  "category": "电子数码",
+  "image_type": "feature",
+  "profile": {
+    "morphology": "rigid-clip-device",
+    "action": "display",
+    "style": "outdoor-rhythmic",
+    "route": "ai-reference-guided"
+  },
+  "route": "ai-reference-guided",
+  "recipe": {
+    "id": "electronics-outdoor-rhythmic",
+    "version": 1,
+    "mode": "explore"
+  },
+  "product_identity": {
+    "reference_files": [
+      "source.jpg"
+    ],
+    "locked": [
+      "one black JBL Clip 5, rounded oval mesh body, oversized integrated black loop/carabiner, source embossed top symbols, orange-outline JBL badge"
+    ],
+    "unknown": [
+      "hidden construction",
+      "precise dimensions",
+      "colorimetry"
+    ]
+  },
+  "message": {
+    "exact_copy": [
+      "CLIP",
+      "TAKE YOUR SOUND"
+    ],
+    "evidence": []
+  },
+  "composition": {
+    "action": "display",
+    "first_read": "product",
+    "camera": "extreme near three-quarter body, carabiner loop visible, full device",
+    "visible_result": "扣环轮廓、织物微纹与便携体积"
+  },
+  "spatial_type": {
+    "enabled": true,
+    "relationship": "CLIP rear monumental type interrupted by loop/body; local copy along loop tangent"
+  },
+  "effects": {
+    "enabled": false,
+    "scope": null
+  },
+  "material_expression": {
+    "enabled": false,
+    "intent": "扣环轮廓、织物微纹与便携体积"
+  },
+  "review_set": false,
+  "design_intent": "扣环轮廓、织物微纹与便携体积",
+  "transfer": [
+    "曲线扣环选择性穿过文字前层",
+    "户外色与深色织物分离，不继承电光"
+  ],
+  "reusable_pattern": "{current_clip_product} 近景展示来源确定的闭合轮廓，{headline} 在后方被环和机身遮挡；{local_copy} 顺扣环切线。实际纹理相对 logo 尺度，不虚构打开结构、防水水流或声波性能。",
+  "style_references": [
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/sample-09.jpg"
+  ],
+  "additional_sources": [],
+  "limits": [
+    "One SKU and one advertising image type; not cross-product validated",
+    "source-guided visual rendering, not CAD or hidden-engineering verification",
+    "baked raster text; not marketplace primary-image compliance approval"
+  ]
+}

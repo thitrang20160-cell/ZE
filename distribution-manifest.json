@@ -1,0 +1,1496 @@
+{
+  "schema_version": 1,
+  "skill": "safesell-product-visuals",
+  "version": "1.9",
+  "original_file_count": 211,
+  "original_total_bytes": 99402451,
+  "source_files": [
+    {
+      "original": "agents/openai.yaml",
+      "delivered": "skills/safesell-product-visuals/agents/openai.yaml",
+      "sha256": "44b8c7794559e360dbf6cbed7528b137cf5c37b3f11659ba6a5cfeed91ad291a",
+      "size_bytes": 400
+    },
+    {
+      "original": "AI生图SKILL.md",
+      "delivered": "skills/safesell-product-visuals/SKILL.md",
+      "sha256": "ca317d69d6183d26335207103c324257b79e01fe99bce6705ef1f552c0a26ce9",
+      "size_bytes": 16098
+    },
+    {
+      "original": "assets/approved-spatial-type-v3.png",
+      "delivered": "skills/safesell-product-visuals/assets/approved-spatial-type-v3.png",
+      "sha256": "177ac36c2a134ea2bf675caac174eada1af95744f9cfd10a24ffe1b4ae79ec67",
+      "size_bytes": 2010835
+    },
+    {
+      "original": "assets/approved-style.json",
+      "delivered": "skills/safesell-product-visuals/assets/approved-style.json",
+      "sha256": "a0de31c18bb60f602acfc38746ae0061a9ed39dd2104c72196dc44f8420c7eb6",
+      "size_bytes": 1147
+    },
+    {
+      "original": "assets/recipes/beauty-sensory-cream/v1/anchor-0.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/anchor-0.png",
+      "sha256": "8f1e26a8607130bd278ef666d0c48af60d9e16d397cf2aea79396960539edfcf",
+      "size_bytes": 1953831
+    },
+    {
+      "original": "assets/recipes/beauty-sensory-cream/v1/anchor-1.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/anchor-1.jpg",
+      "sha256": "18f1ff29fd6c64f12cafec4e5bea74f6bea5ab2e032d81f26eabf2f33ca9ced2",
+      "size_bytes": 196480
+    },
+    {
+      "original": "assets/recipes/beauty-sensory-cream/v1/review-0/evidence-0.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/review-0/evidence-0.json",
+      "sha256": "38d4785744686cdc5c377efc9c0b196d53d786fc56e1ba3bc3642966fb64b9d7",
+      "size_bytes": 2536
+    },
+    {
+      "original": "assets/recipes/beauty-sensory-cream/v1/review-0/evidence-1.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/review-0/evidence-1.png",
+      "sha256": "8f1e26a8607130bd278ef666d0c48af60d9e16d397cf2aea79396960539edfcf",
+      "size_bytes": 1953831
+    },
+    {
+      "original": "assets/recipes/beauty-sensory-cream/v1/review-0/evidence-2.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/review-0/evidence-2.json",
+      "sha256": "06efce756c658818c06673392b3992b4314e845e45055101c4279a5d9e293794",
+      "size_bytes": 626
+    },
+    {
+      "original": "assets/recipes/beauty-sensory-cream/v1/review-0/evidence-3.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/review-0/evidence-3.jpg",
+      "sha256": "18f1ff29fd6c64f12cafec4e5bea74f6bea5ab2e032d81f26eabf2f33ca9ced2",
+      "size_bytes": 196480
+    },
+    {
+      "original": "assets/recipes/beauty-sensory-cream/v1/review-0/evidence-4.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/review-0/evidence-4.json",
+      "sha256": "299c97474bd0e40dc1fee3a13663c295dc4ec8d4b35f75636c9ebf8560e23fa4",
+      "size_bytes": 766
+    },
+    {
+      "original": "assets/recipes/beauty-sensory-cream/v1/review-0/evidence-5.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/review-0/evidence-5.png",
+      "sha256": "57d0a0881c52235af54f5470c528b617b849c83bc9bd2e6d464689da01414470",
+      "size_bytes": 2401486
+    },
+    {
+      "original": "assets/recipes/beauty-sensory-cream/v1/review-0/original-review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/review-0/original-review.json",
+      "sha256": "2125bb590b569d5a54e97f1ed52e8acdcbdd8e2ce577ff8fb2c9a043c3d53033",
+      "size_bytes": 4640
+    },
+    {
+      "original": "assets/recipes/beauty-sensory-cream/v1/review-0/review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/review-0/review.json",
+      "sha256": "4cdc67930ef0a7a15b522dbf09579c92c7e9b26ab5f021eb109f553f47d33085",
+      "size_bytes": 4128
+    },
+    {
+      "original": "assets/recipes/cable/material-v5.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cable/material-v5.png",
+      "sha256": "83f0458fc5ecb1a67649aff3faf0fe665a947cff110bde63e9098601f631a8a6",
+      "size_bytes": 2106510
+    },
+    {
+      "original": "assets/recipes/cleaning-precision-clean/v1/anchor-0.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/anchor-0.png",
+      "sha256": "ebc0df7aafdc3574856685ba046918ae0e25a3e274a0eb96cf46f160959ea74c",
+      "size_bytes": 2137872
+    },
+    {
+      "original": "assets/recipes/cleaning-precision-clean/v1/anchor-1.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/anchor-1.jpg",
+      "sha256": "5ca063e4285cfe365f4a43b83e6b199b5eb68e446a68b056104f9f42e7716db8",
+      "size_bytes": 78242
+    },
+    {
+      "original": "assets/recipes/cleaning-precision-clean/v1/review-0/evidence-0.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/review-0/evidence-0.json",
+      "sha256": "4e0f22b0afc81ae8d5181e58349c008af8f9f7a890d9d54f0a65bc837056c33f",
+      "size_bytes": 2283
+    },
+    {
+      "original": "assets/recipes/cleaning-precision-clean/v1/review-0/evidence-1.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/review-0/evidence-1.png",
+      "sha256": "ebc0df7aafdc3574856685ba046918ae0e25a3e274a0eb96cf46f160959ea74c",
+      "size_bytes": 2137872
+    },
+    {
+      "original": "assets/recipes/cleaning-precision-clean/v1/review-0/evidence-2.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/review-0/evidence-2.json",
+      "sha256": "6451bfdd8be217a22f7387fe99f74e54d9fe2d2d4f1463b62e40dd8472068df6",
+      "size_bytes": 630
+    },
+    {
+      "original": "assets/recipes/cleaning-precision-clean/v1/review-0/evidence-3.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/review-0/evidence-3.jpg",
+      "sha256": "5ca063e4285cfe365f4a43b83e6b199b5eb68e446a68b056104f9f42e7716db8",
+      "size_bytes": 78242
+    },
+    {
+      "original": "assets/recipes/cleaning-precision-clean/v1/review-0/evidence-4.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/review-0/evidence-4.json",
+      "sha256": "2a0e42726e24e40e1c7278c4be71fad6852265fd326c7323eff1e54e6fefdd58",
+      "size_bytes": 777
+    },
+    {
+      "original": "assets/recipes/cleaning-precision-clean/v1/review-0/evidence-5.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/review-0/evidence-5.png",
+      "sha256": "57d0a0881c52235af54f5470c528b617b849c83bc9bd2e6d464689da01414470",
+      "size_bytes": 2401486
+    },
+    {
+      "original": "assets/recipes/cleaning-precision-clean/v1/review-0/original-review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/review-0/original-review.json",
+      "sha256": "6cc60bd76590b46ad378b602ab7d1452b6f68089ff34c765426ee7fb998476a6",
+      "size_bytes": 4302
+    },
+    {
+      "original": "assets/recipes/cleaning-precision-clean/v1/review-0/review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/review-0/review.json",
+      "sha256": "4c401eb99246520c536a73fa097f3eb67bd65bae745bb557cc9bcdbf93c241e7",
+      "size_bytes": 3780
+    },
+    {
+      "original": "assets/recipes/cooking-kinetic-spatial/v1/motion-anchor.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cooking-kinetic-spatial/v1/motion-anchor.png",
+      "sha256": "6e703a71d31e4af65b102de90d2834ac25529887042d7596c8858849f4bcf4da",
+      "size_bytes": 2295533
+    },
+    {
+      "original": "assets/recipes/cooking-kinetic-spatial/v1/motion-brief.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cooking-kinetic-spatial/v1/motion-brief.json",
+      "sha256": "2689484898ea661e533b63d0250020a16a2aad7a8457583f5fadad738ad8a7c2",
+      "size_bytes": 2268
+    },
+    {
+      "original": "assets/recipes/cooking-kinetic-spatial/v1/motion-review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cooking-kinetic-spatial/v1/motion-review.json",
+      "sha256": "3e558a16ce0413dbee928cc0725157692665d68b806d597f534d6215dbf5e133",
+      "size_bytes": 1949
+    },
+    {
+      "original": "assets/recipes/cooking-kinetic-spatial/v1/source-identity.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cooking-kinetic-spatial/v1/source-identity.jpg",
+      "sha256": "2341cecf3ac2b72b5e8fd1250d04c0e6a368326ec89126983557e1157b540220",
+      "size_bytes": 152861
+    },
+    {
+      "original": "assets/recipes/cooking-kinetic-spatial/v1/type-anchor.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cooking-kinetic-spatial/v1/type-anchor.png",
+      "sha256": "dbdbfc0da8be232f1ac11639cfcf15b7cd0431d5a5242d7922c586c8d1ea4062",
+      "size_bytes": 2447956
+    },
+    {
+      "original": "assets/recipes/cooking-kinetic-spatial/v1/type-brief.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cooking-kinetic-spatial/v1/type-brief.json",
+      "sha256": "581d07fce8cee53a8a1d49c9bc2f1c8318fd1cbb2d08e39f82205876621d6113",
+      "size_bytes": 2548
+    },
+    {
+      "original": "assets/recipes/cooking-kinetic-spatial/v1/type-review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/cooking-kinetic-spatial/v1/type-review.json",
+      "sha256": "b67f7c325b8fbd8b7375fa852469bf1bf4ad79872d9c0585d04340ff760084d8",
+      "size_bytes": 1581
+    },
+    {
+      "original": "assets/recipes/electronics-outdoor-rhythmic/v1/anchor-0.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/anchor-0.png",
+      "sha256": "48b392ee98cd7585a72e3d48f0e771fc86faca0124f62d8212a62d392d177c8b",
+      "size_bytes": 2609281
+    },
+    {
+      "original": "assets/recipes/electronics-outdoor-rhythmic/v1/anchor-1.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/anchor-1.jpg",
+      "sha256": "ad3b75d983ae7fb347ea34658650c5401236ae526df2460eae0ba5ae7b706385",
+      "size_bytes": 305252
+    },
+    {
+      "original": "assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-0.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-0.json",
+      "sha256": "2f4a720f9095ed513ff10ed108f79e088bcc8bf8a25122124ff82b6fb6824b32",
+      "size_bytes": 2324
+    },
+    {
+      "original": "assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-1.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-1.png",
+      "sha256": "48b392ee98cd7585a72e3d48f0e771fc86faca0124f62d8212a62d392d177c8b",
+      "size_bytes": 2609281
+    },
+    {
+      "original": "assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-2.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-2.json",
+      "sha256": "d140666207820cfc0b27992396d7487c5bc20f31460424b130025ed9260c76ff",
+      "size_bytes": 636
+    },
+    {
+      "original": "assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-3.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-3.jpg",
+      "sha256": "ad3b75d983ae7fb347ea34658650c5401236ae526df2460eae0ba5ae7b706385",
+      "size_bytes": 305252
+    },
+    {
+      "original": "assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-4.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-4.json",
+      "sha256": "972b321d1cff767e1615f99e001f79df0a5e94f38b6dfd9fd9c171bc8e32e455",
+      "size_bytes": 747
+    },
+    {
+      "original": "assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-5.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-5.jpg",
+      "sha256": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+      "size_bytes": 139834
+    },
+    {
+      "original": "assets/recipes/electronics-outdoor-rhythmic/v1/review-0/original-review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/review-0/original-review.json",
+      "sha256": "79b349bc2b9734c7fe4e051b1bc042ff3a1c33fa1a5de14c14e88d646873e02d",
+      "size_bytes": 4253
+    },
+    {
+      "original": "assets/recipes/electronics-outdoor-rhythmic/v1/review-0/review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/review-0/review.json",
+      "sha256": "58768c9e17af6388ca12e0a986bf698683a262cab56c9d0526c0ea190065333d",
+      "size_bytes": 3732
+    },
+    {
+      "original": "assets/recipes/fashion-soft-editorial/v1/anchor-0.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/anchor-0.png",
+      "sha256": "50bce4292ed9ded7fbcbed85665f63fb6179afe21f71279febedaca62b334ea5",
+      "size_bytes": 2315521
+    },
+    {
+      "original": "assets/recipes/fashion-soft-editorial/v1/anchor-1.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/anchor-1.jpg",
+      "sha256": "d2ef4efe85c9109c349be9c384a2c9a9714e0ec54edc89949e06365d1bd659c4",
+      "size_bytes": 569473
+    },
+    {
+      "original": "assets/recipes/fashion-soft-editorial/v1/review-0/evidence-0.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/evidence-0.json",
+      "sha256": "f335bb119bad089001afbd4215bda0610d7b372c792e1d53cf1853c6eed47ec6",
+      "size_bytes": 2388
+    },
+    {
+      "original": "assets/recipes/fashion-soft-editorial/v1/review-0/evidence-1.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/evidence-1.png",
+      "sha256": "50bce4292ed9ded7fbcbed85665f63fb6179afe21f71279febedaca62b334ea5",
+      "size_bytes": 2315521
+    },
+    {
+      "original": "assets/recipes/fashion-soft-editorial/v1/review-0/evidence-2.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/evidence-2.json",
+      "sha256": "75cbc748cf6494e165d6fc142f32d229124db90659abb5c7a482b10b5ffcdf5d",
+      "size_bytes": 628
+    },
+    {
+      "original": "assets/recipes/fashion-soft-editorial/v1/review-0/evidence-3.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/evidence-3.jpg",
+      "sha256": "d2ef4efe85c9109c349be9c384a2c9a9714e0ec54edc89949e06365d1bd659c4",
+      "size_bytes": 569473
+    },
+    {
+      "original": "assets/recipes/fashion-soft-editorial/v1/review-0/evidence-4.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/evidence-4.json",
+      "sha256": "74182134b49fc3a0fef113e593993b8fdf6b13e223004019f9b35b5926988729",
+      "size_bytes": 813
+    },
+    {
+      "original": "assets/recipes/fashion-soft-editorial/v1/review-0/evidence-5.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/evidence-5.png",
+      "sha256": "57d0a0881c52235af54f5470c528b617b849c83bc9bd2e6d464689da01414470",
+      "size_bytes": 2401486
+    },
+    {
+      "original": "assets/recipes/fashion-soft-editorial/v1/review-0/evidence-6.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/evidence-6.jpg",
+      "sha256": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+      "size_bytes": 139834
+    },
+    {
+      "original": "assets/recipes/fashion-soft-editorial/v1/review-0/original-review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/original-review.json",
+      "sha256": "4593b06d6aa50e81f8082c84f9602b29574c7523ed41d20fc148e827844a4b9f",
+      "size_bytes": 4546
+    },
+    {
+      "original": "assets/recipes/fashion-soft-editorial/v1/review-0/review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/review.json",
+      "sha256": "ec79bee40ad6fe5f0c9ed4204c2efd29609afbd876d0996da2b46589fcce513e",
+      "size_bytes": 3965
+    },
+    {
+      "original": "assets/recipes/food-crisp-pop/v1/anchor-0.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/anchor-0.png",
+      "sha256": "7c6a3f203d7723383a88cf5112d8c7ff4901e2cb5ece96656f8e31227f2b5fc8",
+      "size_bytes": 2163132
+    },
+    {
+      "original": "assets/recipes/food-crisp-pop/v1/anchor-1.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/anchor-1.jpg",
+      "sha256": "bccffa8a2024dd37d57141995e2aef7f362ef4b8dd33d2a837194243dc771c59",
+      "size_bytes": 361160
+    },
+    {
+      "original": "assets/recipes/food-crisp-pop/v1/review-0/evidence-0.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/evidence-0.json",
+      "sha256": "74ae46d8f40e875656b67085c0411b735f9edd5ec4ca95edb00c6c852459d41c",
+      "size_bytes": 2395
+    },
+    {
+      "original": "assets/recipes/food-crisp-pop/v1/review-0/evidence-1.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/evidence-1.png",
+      "sha256": "7c6a3f203d7723383a88cf5112d8c7ff4901e2cb5ece96656f8e31227f2b5fc8",
+      "size_bytes": 2163132
+    },
+    {
+      "original": "assets/recipes/food-crisp-pop/v1/review-0/evidence-2.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/evidence-2.json",
+      "sha256": "af985feae5432ad4a6fdf51285eef84a7687ad8caa381229d2cddf4626fed9e4",
+      "size_bytes": 622
+    },
+    {
+      "original": "assets/recipes/food-crisp-pop/v1/review-0/evidence-3.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/evidence-3.jpg",
+      "sha256": "bccffa8a2024dd37d57141995e2aef7f362ef4b8dd33d2a837194243dc771c59",
+      "size_bytes": 361160
+    },
+    {
+      "original": "assets/recipes/food-crisp-pop/v1/review-0/evidence-4.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/evidence-4.json",
+      "sha256": "59265ff7199a897301587722694c985aea7aecc52097473eebcc18ee5fbb78e2",
+      "size_bytes": 762
+    },
+    {
+      "original": "assets/recipes/food-crisp-pop/v1/review-0/evidence-5.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/evidence-5.jpg",
+      "sha256": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+      "size_bytes": 139834
+    },
+    {
+      "original": "assets/recipes/food-crisp-pop/v1/review-0/evidence-6.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/evidence-6.jpg",
+      "sha256": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+      "size_bytes": 145965
+    },
+    {
+      "original": "assets/recipes/food-crisp-pop/v1/review-0/original-review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/original-review.json",
+      "sha256": "c91012596f1ebc7e0978ed48a448cfc3d6eb070ed2b16e88c91632d6893b17b9",
+      "size_bytes": 4662
+    },
+    {
+      "original": "assets/recipes/food-crisp-pop/v1/review-0/review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/review.json",
+      "sha256": "64d3c462ea264da08412359188146e15a0b25be524238fadc4db9759196ba397",
+      "size_bytes": 4112
+    },
+    {
+      "original": "assets/recipes/furniture-sculptural-home/v1/anchor-0.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/anchor-0.png",
+      "sha256": "f3cd4fd173ba55053653f8895da91e1e22d44694c3c687927f914dc3fbad4441",
+      "size_bytes": 1822868
+    },
+    {
+      "original": "assets/recipes/furniture-sculptural-home/v1/anchor-1.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/anchor-1.jpg",
+      "sha256": "4637046f0de6697e1c02f31242887a8192f534c2627bf50abf1ff68f6c7f9894",
+      "size_bytes": 221713
+    },
+    {
+      "original": "assets/recipes/furniture-sculptural-home/v1/review-0/evidence-0.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/evidence-0.json",
+      "sha256": "607a8b545504f8601543a335d181be31d6ac383176ed11ebe77a3485e2463b92",
+      "size_bytes": 1638
+    },
+    {
+      "original": "assets/recipes/furniture-sculptural-home/v1/review-0/evidence-1.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/evidence-1.png",
+      "sha256": "f3cd4fd173ba55053653f8895da91e1e22d44694c3c687927f914dc3fbad4441",
+      "size_bytes": 1822868
+    },
+    {
+      "original": "assets/recipes/furniture-sculptural-home/v1/review-0/evidence-2.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/evidence-2.json",
+      "sha256": "963287c807c1f7fa39dc5788a98606f3686584391a1081e832de584ca9c28dd6",
+      "size_bytes": 632
+    },
+    {
+      "original": "assets/recipes/furniture-sculptural-home/v1/review-0/evidence-3.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/evidence-3.jpg",
+      "sha256": "4637046f0de6697e1c02f31242887a8192f534c2627bf50abf1ff68f6c7f9894",
+      "size_bytes": 221713
+    },
+    {
+      "original": "assets/recipes/furniture-sculptural-home/v1/review-0/evidence-4.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/evidence-4.json",
+      "sha256": "56784342ffcb98d0a43ac10d63ebc0d16b06b50ac508461884056bbffdf9cf13",
+      "size_bytes": 724
+    },
+    {
+      "original": "assets/recipes/furniture-sculptural-home/v1/review-0/evidence-5.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/evidence-5.png",
+      "sha256": "57d0a0881c52235af54f5470c528b617b849c83bc9bd2e6d464689da01414470",
+      "size_bytes": 2401486
+    },
+    {
+      "original": "assets/recipes/furniture-sculptural-home/v1/review-0/evidence-6.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/evidence-6.jpg",
+      "sha256": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+      "size_bytes": 145965
+    },
+    {
+      "original": "assets/recipes/furniture-sculptural-home/v1/review-0/original-review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/original-review.json",
+      "sha256": "082e3d72e993d9f5edc23492b62896f3d1948dabdaefe56b0d5cc4bedf24ca0f",
+      "size_bytes": 4540
+    },
+    {
+      "original": "assets/recipes/furniture-sculptural-home/v1/review-0/review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/review.json",
+      "sha256": "5d4b6372687d0433a86d4cd699eac9b816ee8b2dd113d3e61e878b380ab63762",
+      "size_bytes": 3949
+    },
+    {
+      "original": "assets/recipes/garden-botanical-precision/v1/anchor-0.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/anchor-0.png",
+      "sha256": "1d8aa9a03a2e6e14148afb43da0ef1a217c55e2233eab8595d30e4a213fa14cd",
+      "size_bytes": 3050060
+    },
+    {
+      "original": "assets/recipes/garden-botanical-precision/v1/anchor-1.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/anchor-1.jpg",
+      "sha256": "0fbae6fd6e98115a936a788e2c80c2bf4cdf3ae6098e2e6be6fd5e7662592431",
+      "size_bytes": 172484
+    },
+    {
+      "original": "assets/recipes/garden-botanical-precision/v1/review-0/evidence-0.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/evidence-0.json",
+      "sha256": "2aec9a6d8c56d006e84e1815997b2db099cd783dda50d1e3ae997684f3f833a1",
+      "size_bytes": 2428
+    },
+    {
+      "original": "assets/recipes/garden-botanical-precision/v1/review-0/evidence-1.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/evidence-1.png",
+      "sha256": "1d8aa9a03a2e6e14148afb43da0ef1a217c55e2233eab8595d30e4a213fa14cd",
+      "size_bytes": 3050060
+    },
+    {
+      "original": "assets/recipes/garden-botanical-precision/v1/review-0/evidence-2.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/evidence-2.json",
+      "sha256": "98e1c90cb2de28cedae69f2aa13714dfc98e90a711ec29320868cbacba92c3c3",
+      "size_bytes": 626
+    },
+    {
+      "original": "assets/recipes/garden-botanical-precision/v1/review-0/evidence-3.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/evidence-3.jpg",
+      "sha256": "0fbae6fd6e98115a936a788e2c80c2bf4cdf3ae6098e2e6be6fd5e7662592431",
+      "size_bytes": 172484
+    },
+    {
+      "original": "assets/recipes/garden-botanical-precision/v1/review-0/evidence-4.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/evidence-4.json",
+      "sha256": "f7adf1d2861dadffa2a9104d6f2ad01635e41ac2ef7fd73e12016486bce310d9",
+      "size_bytes": 732
+    },
+    {
+      "original": "assets/recipes/garden-botanical-precision/v1/review-0/evidence-5.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/evidence-5.jpg",
+      "sha256": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+      "size_bytes": 145965
+    },
+    {
+      "original": "assets/recipes/garden-botanical-precision/v1/review-0/evidence-6.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/evidence-6.jpg",
+      "sha256": "d2d560578abbc356f0cdcf059885aab966cf07991dd74c23f99871f34c788595",
+      "size_bytes": 152700
+    },
+    {
+      "original": "assets/recipes/garden-botanical-precision/v1/review-0/original-review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/original-review.json",
+      "sha256": "c43b6a881e3d9e45a234c6c4ea9fe1db9c561c529aa224f7d2dcaec491871ed3",
+      "size_bytes": 4596
+    },
+    {
+      "original": "assets/recipes/garden-botanical-precision/v1/review-0/review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/review.json",
+      "sha256": "95112248565ad4a315a13490ba0671b069c714be29c5729177ebfbefc6a847e0",
+      "size_bytes": 4036
+    },
+    {
+      "original": "assets/recipes/kitchen-fresh-kinetic/v1/anchor-0.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/anchor-0.png",
+      "sha256": "b4005008f6a61a67638e81124454fa1c889e028a72951ef295a669230c5832d7",
+      "size_bytes": 2296044
+    },
+    {
+      "original": "assets/recipes/kitchen-fresh-kinetic/v1/anchor-1.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/anchor-1.jpg",
+      "sha256": "0a3bf6638f9d17ca87db8d54bb43b5d926cb789e555f731232fbce4050356b69",
+      "size_bytes": 1443334
+    },
+    {
+      "original": "assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-0.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-0.json",
+      "sha256": "fa66f7beb4d3e840746f693852e56b9f753f299d8a46379742ceeea7e931dd43",
+      "size_bytes": 2417
+    },
+    {
+      "original": "assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-1.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-1.png",
+      "sha256": "b4005008f6a61a67638e81124454fa1c889e028a72951ef295a669230c5832d7",
+      "size_bytes": 2296044
+    },
+    {
+      "original": "assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-2.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-2.json",
+      "sha256": "dc93d6e37e214be1cbd7dc02f0b45dd1df6846b9fb06e3255439488cd21690e5",
+      "size_bytes": 628
+    },
+    {
+      "original": "assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-3.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-3.jpg",
+      "sha256": "0a3bf6638f9d17ca87db8d54bb43b5d926cb789e555f731232fbce4050356b69",
+      "size_bytes": 1443334
+    },
+    {
+      "original": "assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-4.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-4.json",
+      "sha256": "2811d3f4d04fe789e06b59265290bd4e7ad737c04e4fcf25d7dfb00714ad04c4",
+      "size_bytes": 766
+    },
+    {
+      "original": "assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-5.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-5.jpg",
+      "sha256": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+      "size_bytes": 139834
+    },
+    {
+      "original": "assets/recipes/kitchen-fresh-kinetic/v1/review-0/original-review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/review-0/original-review.json",
+      "sha256": "cbb22e70e5d34a1b24c21d2142b211bb80ef492bc2a1fc3f94c445aed7ab4742",
+      "size_bytes": 4325
+    },
+    {
+      "original": "assets/recipes/kitchen-fresh-kinetic/v1/review-0/review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/review-0/review.json",
+      "sha256": "4ec3a9efd7c0088f9f34e47a98ac392b9e9596b46a3e397f438316ff04500737",
+      "size_bytes": 3824
+    },
+    {
+      "original": "assets/recipes/pet-gentle-fluid/v1/anchor-0.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/anchor-0.png",
+      "sha256": "eb84b9e498d60241b687e1d6edf3869622538c8e818b0c7f8a635d618b86b202",
+      "size_bytes": 1987433
+    },
+    {
+      "original": "assets/recipes/pet-gentle-fluid/v1/anchor-1.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/anchor-1.jpg",
+      "sha256": "0ed2d5c2c53bed0cd007e316a948859b28bee9662432fba145f5f19d3342de93",
+      "size_bytes": 44038
+    },
+    {
+      "original": "assets/recipes/pet-gentle-fluid/v1/review-0/evidence-0.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/evidence-0.json",
+      "sha256": "5085c2a4501796a70b20ab61ab05406ef5287edac1142b68ee046f2c001056dd",
+      "size_bytes": 2390
+    },
+    {
+      "original": "assets/recipes/pet-gentle-fluid/v1/review-0/evidence-1.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/evidence-1.png",
+      "sha256": "eb84b9e498d60241b687e1d6edf3869622538c8e818b0c7f8a635d618b86b202",
+      "size_bytes": 1987433
+    },
+    {
+      "original": "assets/recipes/pet-gentle-fluid/v1/review-0/evidence-2.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/evidence-2.json",
+      "sha256": "983afb11a54fd8b6967b2514eab6e7a9f592281f8b832404684c544ecd106913",
+      "size_bytes": 620
+    },
+    {
+      "original": "assets/recipes/pet-gentle-fluid/v1/review-0/evidence-3.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/evidence-3.jpg",
+      "sha256": "0ed2d5c2c53bed0cd007e316a948859b28bee9662432fba145f5f19d3342de93",
+      "size_bytes": 44038
+    },
+    {
+      "original": "assets/recipes/pet-gentle-fluid/v1/review-0/evidence-4.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/evidence-4.json",
+      "sha256": "b41e4825ed6bdcdbb8590c99585fcc517dec9e2b5248804c751866ff727d9a4c",
+      "size_bytes": 742
+    },
+    {
+      "original": "assets/recipes/pet-gentle-fluid/v1/review-0/evidence-5.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/evidence-5.jpg",
+      "sha256": "892fedc432c1417b61be8e3f56d564f6b2b8d61da2c979fa741ccb6f500b1545",
+      "size_bytes": 171546
+    },
+    {
+      "original": "assets/recipes/pet-gentle-fluid/v1/review-0/evidence-6.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/evidence-6.jpg",
+      "sha256": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+      "size_bytes": 139834
+    },
+    {
+      "original": "assets/recipes/pet-gentle-fluid/v1/review-0/original-review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/original-review.json",
+      "sha256": "2d453fc4190e5557c39516975d030ba97eca7db993fd83ba3e6aeb8eef93c70c",
+      "size_bytes": 4511
+    },
+    {
+      "original": "assets/recipes/pet-gentle-fluid/v1/review-0/review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/review.json",
+      "sha256": "f4d04379ad4276700277e9b05db1deabec1872fa092d5c3403d37e6d6a26843f",
+      "size_bytes": 3966
+    },
+    {
+      "original": "assets/recipes/sports-grounded-movement/v1/anchor-0.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/anchor-0.png",
+      "sha256": "dc7655fe13f3380075f8a9a2967771eae6f402886e85b6e83f28d082481a7d88",
+      "size_bytes": 2346164
+    },
+    {
+      "original": "assets/recipes/sports-grounded-movement/v1/anchor-1.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/anchor-1.jpg",
+      "sha256": "f67c1d627724c9fe897b55d2bb824a7ccfe1e6b964f3c887e61b76c51382a033",
+      "size_bytes": 27355
+    },
+    {
+      "original": "assets/recipes/sports-grounded-movement/v1/review-0/evidence-0.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/evidence-0.json",
+      "sha256": "6c5de83fac6ac597f063ab38241689c08ff24d08663dbf2e3d8367ecef8c037f",
+      "size_bytes": 2333
+    },
+    {
+      "original": "assets/recipes/sports-grounded-movement/v1/review-0/evidence-1.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/evidence-1.png",
+      "sha256": "dc7655fe13f3380075f8a9a2967771eae6f402886e85b6e83f28d082481a7d88",
+      "size_bytes": 2346164
+    },
+    {
+      "original": "assets/recipes/sports-grounded-movement/v1/review-0/evidence-2.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/evidence-2.json",
+      "sha256": "307ac0bd16a7abc11fbf6c719789637150c84868facce7516fd5841a81558b0e",
+      "size_bytes": 626
+    },
+    {
+      "original": "assets/recipes/sports-grounded-movement/v1/review-0/evidence-3.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/evidence-3.jpg",
+      "sha256": "f67c1d627724c9fe897b55d2bb824a7ccfe1e6b964f3c887e61b76c51382a033",
+      "size_bytes": 27355
+    },
+    {
+      "original": "assets/recipes/sports-grounded-movement/v1/review-0/evidence-4.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/evidence-4.json",
+      "sha256": "f8d04b1f1d06ec69bfd49708d3dc696cd164a4627a16e3bf3333822a768f2e17",
+      "size_bytes": 824
+    },
+    {
+      "original": "assets/recipes/sports-grounded-movement/v1/review-0/evidence-5.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/evidence-5.jpg",
+      "sha256": "d2d560578abbc356f0cdcf059885aab966cf07991dd74c23f99871f34c788595",
+      "size_bytes": 152700
+    },
+    {
+      "original": "assets/recipes/sports-grounded-movement/v1/review-0/evidence-6.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/evidence-6.jpg",
+      "sha256": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+      "size_bytes": 145965
+    },
+    {
+      "original": "assets/recipes/sports-grounded-movement/v1/review-0/original-review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/original-review.json",
+      "sha256": "73ca3fea25029e2f68c57e933850babc9cee29d9d1c64356ffcf56aaa087ed24",
+      "size_bytes": 4568
+    },
+    {
+      "original": "assets/recipes/sports-grounded-movement/v1/review-0/review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/review.json",
+      "sha256": "d3b501878b016386abcc40a9f1f5d1f65da9253cae6579b772a0f92ca640991a",
+      "size_bytes": 4008
+    },
+    {
+      "original": "assets/recipes/steamer/01-hero.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/steamer/01-hero.png",
+      "sha256": "57d0a0881c52235af54f5470c528b617b849c83bc9bd2e6d464689da01414470",
+      "size_bytes": 2401486
+    },
+    {
+      "original": "assets/recipes/steamer/02-feature.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/steamer/02-feature.png",
+      "sha256": "3099fa41d45a66035ef8664f1f35428c9d6e6de94bd6093c41c182086924cc79",
+      "size_bytes": 2311760
+    },
+    {
+      "original": "assets/recipes/steamer/03-material.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/steamer/03-material.png",
+      "sha256": "0cabeaaeb57682fb499916199551553f30a9444d5e182c70902fc309d92975b4",
+      "size_bytes": 2468424
+    },
+    {
+      "original": "assets/recipes/steamer/04-control-failure.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/steamer/04-control-failure.png",
+      "sha256": "ca9dbc8c900c920f2a1ab566c1b0ee0e4ceb2de6a64eb1a99113b80285d892f7",
+      "size_bytes": 2221707
+    },
+    {
+      "original": "assets/recipes/steamer/04-control.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/steamer/04-control.png",
+      "sha256": "e27bee27131967a89ca8973524be9e606e37ceb9c981753c0e3b49b7021fd9e8",
+      "size_bytes": 2106600
+    },
+    {
+      "original": "assets/recipes/steamer/05-use.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/steamer/05-use.png",
+      "sha256": "ddd8495967ff643515c57ec20c48c1c6363ae695e59b5363daae6567affac88f",
+      "size_bytes": 1968384
+    },
+    {
+      "original": "assets/recipes/steamer/source-control.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/steamer/source-control.jpg",
+      "sha256": "77da5045063876b381fbcd61d836e66a8939ffbbbc0e7f75e11bb987c8d59579",
+      "size_bytes": 219884
+    },
+    {
+      "original": "assets/recipes/steamer/source-hero.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/steamer/source-hero.jpg",
+      "sha256": "bf64fb93622cf62f9a957b0b92d5f31fd18a57e6539dde6963363ba4531e080c",
+      "size_bytes": 169793
+    },
+    {
+      "original": "assets/recipes/tools-industrial-axis/v1/anchor-0.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/anchor-0.png",
+      "sha256": "971a6222be4daeaab3b6231b677c5bcb725d46398ebeb8d3a5157b5605f2aebe",
+      "size_bytes": 2752939
+    },
+    {
+      "original": "assets/recipes/tools-industrial-axis/v1/anchor-1.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/anchor-1.jpg",
+      "sha256": "5d1c7de3ab495b09018c8ed0a5d8f1de8eba976ce6e34c77d7a60bb32854da6b",
+      "size_bytes": 132695
+    },
+    {
+      "original": "assets/recipes/tools-industrial-axis/v1/review-0/evidence-0.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/evidence-0.json",
+      "sha256": "ac7f030fc8e96d7bbffa823485113c9b610a37b230239be4b5df631c4496b12e",
+      "size_bytes": 2333
+    },
+    {
+      "original": "assets/recipes/tools-industrial-axis/v1/review-0/evidence-1.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/evidence-1.png",
+      "sha256": "971a6222be4daeaab3b6231b677c5bcb725d46398ebeb8d3a5157b5605f2aebe",
+      "size_bytes": 2752939
+    },
+    {
+      "original": "assets/recipes/tools-industrial-axis/v1/review-0/evidence-2.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/evidence-2.json",
+      "sha256": "c96f0a077785ee66f2d6a365458285eb41cb6bd710f23274d8c6b0b58e661278",
+      "size_bytes": 624
+    },
+    {
+      "original": "assets/recipes/tools-industrial-axis/v1/review-0/evidence-3.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/evidence-3.jpg",
+      "sha256": "5d1c7de3ab495b09018c8ed0a5d8f1de8eba976ce6e34c77d7a60bb32854da6b",
+      "size_bytes": 132695
+    },
+    {
+      "original": "assets/recipes/tools-industrial-axis/v1/review-0/evidence-4.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/evidence-4.json",
+      "sha256": "b4e2a5c7109236d6e1ecf78f0d3efcf7c14f10f283b7ce1c318a71b75c3cbc04",
+      "size_bytes": 750
+    },
+    {
+      "original": "assets/recipes/tools-industrial-axis/v1/review-0/evidence-5.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/evidence-5.jpg",
+      "sha256": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+      "size_bytes": 145965
+    },
+    {
+      "original": "assets/recipes/tools-industrial-axis/v1/review-0/evidence-6.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/evidence-6.jpg",
+      "sha256": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+      "size_bytes": 139834
+    },
+    {
+      "original": "assets/recipes/tools-industrial-axis/v1/review-0/original-review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/original-review.json",
+      "sha256": "4f20330e330138cae7600d2d105c8caaee2a3eb0198a7c54c0934ec5f255ea29",
+      "size_bytes": 4670
+    },
+    {
+      "original": "assets/recipes/tools-industrial-axis/v1/review-0/review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/review.json",
+      "sha256": "80d08d80a27a1311b78ddf1aee0c2336fb397a494e62eed4e14581bb366f5780",
+      "size_bytes": 4115
+    },
+    {
+      "original": "assets/recipes/toys-playful-geometric/v1/anchor-0.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/anchor-0.png",
+      "sha256": "d76d0b0e2f49118ae6e75b38e625ba6a74d8b0949474ff61f7a67d8b5f99dcd1",
+      "size_bytes": 1647484
+    },
+    {
+      "original": "assets/recipes/toys-playful-geometric/v1/anchor-1.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/anchor-1.jpg",
+      "sha256": "8c902d169ac61e9c73d5b473711cce0d704daccebe65320c388e24722d824ecf",
+      "size_bytes": 80065
+    },
+    {
+      "original": "assets/recipes/toys-playful-geometric/v1/review-0/evidence-0.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/evidence-0.json",
+      "sha256": "e5dd1e623ccb42c0f1f0761ca04d9ed2566fae1ef3169bd6a37b9c62ee709fc5",
+      "size_bytes": 2618
+    },
+    {
+      "original": "assets/recipes/toys-playful-geometric/v1/review-0/evidence-1.png",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/evidence-1.png",
+      "sha256": "d76d0b0e2f49118ae6e75b38e625ba6a74d8b0949474ff61f7a67d8b5f99dcd1",
+      "size_bytes": 1647484
+    },
+    {
+      "original": "assets/recipes/toys-playful-geometric/v1/review-0/evidence-2.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/evidence-2.json",
+      "sha256": "47b46c1e3e788e5219eb1152bc26add1d8f3b0ee5305bc62777c9c2216c0015a",
+      "size_bytes": 622
+    },
+    {
+      "original": "assets/recipes/toys-playful-geometric/v1/review-0/evidence-3.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/evidence-3.jpg",
+      "sha256": "8c902d169ac61e9c73d5b473711cce0d704daccebe65320c388e24722d824ecf",
+      "size_bytes": 80065
+    },
+    {
+      "original": "assets/recipes/toys-playful-geometric/v1/review-0/evidence-4.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/evidence-4.json",
+      "sha256": "d19a60646adb8e47411a7af2514ac4375443fb9613d314a74dc1121b697e9a84",
+      "size_bytes": 996
+    },
+    {
+      "original": "assets/recipes/toys-playful-geometric/v1/review-0/evidence-5.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/evidence-5.jpg",
+      "sha256": "8a5b2b0642e84df18cc787ad7ad9e17fa406f98b0d3b6403d21c1063580233e2",
+      "size_bytes": 596268
+    },
+    {
+      "original": "assets/recipes/toys-playful-geometric/v1/review-0/evidence-6.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/evidence-6.jpg",
+      "sha256": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+      "size_bytes": 145965
+    },
+    {
+      "original": "assets/recipes/toys-playful-geometric/v1/review-0/evidence-7.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/evidence-7.jpg",
+      "sha256": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+      "size_bytes": 139834
+    },
+    {
+      "original": "assets/recipes/toys-playful-geometric/v1/review-0/original-review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/original-review.json",
+      "sha256": "d38e861d8018fc5e047819fd52c49b91bf810fdd0c4d2c72243c675b844a68ec",
+      "size_bytes": 4917
+    },
+    {
+      "original": "assets/recipes/toys-playful-geometric/v1/review-0/review.json",
+      "delivered": "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/review.json",
+      "sha256": "e67ba1adae5943d087dd7629777000c97c4db6b3524fb91da63b301fe85e9260",
+      "size_bytes": 4283
+    },
+    {
+      "original": "assets/sample-01.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/sample-01.jpg",
+      "sha256": "c47c93f7e94ba34ae0ccd10964093344f04e6c55b76657ac0d66163155cda918",
+      "size_bytes": 211479
+    },
+    {
+      "original": "assets/sample-02.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/sample-02.jpg",
+      "sha256": "9441b56cb5d16dd1b01fc870f8922c0c69944138050b791c827c1265a0ba6a91",
+      "size_bytes": 143783
+    },
+    {
+      "original": "assets/sample-03.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/sample-03.jpg",
+      "sha256": "63654adb9c3ec9cc87c650c22f1a9aa3855d35f27e108f7e67cc118a4e30ecee",
+      "size_bytes": 233301
+    },
+    {
+      "original": "assets/sample-04.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/sample-04.jpg",
+      "sha256": "b34ac06cd3b15360571aca4215982c9ff26d57ec714e9c7cae6c4f4f4fdaff76",
+      "size_bytes": 268891
+    },
+    {
+      "original": "assets/sample-05.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/sample-05.jpg",
+      "sha256": "892fedc432c1417b61be8e3f56d564f6b2b8d61da2c979fa741ccb6f500b1545",
+      "size_bytes": 171546
+    },
+    {
+      "original": "assets/sample-06.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/sample-06.jpg",
+      "sha256": "add034ced548d46facaf9aaad3ddb6244d60b954e72737fe5c95763e75722f5c",
+      "size_bytes": 215207
+    },
+    {
+      "original": "assets/sample-07.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/sample-07.jpg",
+      "sha256": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+      "size_bytes": 145965
+    },
+    {
+      "original": "assets/sample-08.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/sample-08.jpg",
+      "sha256": "d2d560578abbc356f0cdcf059885aab966cf07991dd74c23f99871f34c788595",
+      "size_bytes": 152700
+    },
+    {
+      "original": "assets/sample-09.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/sample-09.jpg",
+      "sha256": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+      "size_bytes": 139834
+    },
+    {
+      "original": "assets/sample-10.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/sample-10.jpg",
+      "sha256": "ee8cdb4094f1bf683410abf145d5b9113af840712a2b6decfba3290dc2687142",
+      "size_bytes": 229556
+    },
+    {
+      "original": "assets/sample-11.jpg",
+      "delivered": "skills/safesell-product-visuals/assets/sample-11.jpg",
+      "sha256": "a5073990862c53cac107229d4179ab3b9ade915f720ec1916a30f53fc89e21ff",
+      "size_bytes": 153433
+    },
+    {
+      "original": "assets/samples.json",
+      "delivered": "skills/safesell-product-visuals/assets/samples.json",
+      "sha256": "f226154f8000cfb747f5a993dcb9e04e255a495921e8affaed08f95238509d45",
+      "size_bytes": 2637
+    },
+    {
+      "original": "references/bookends-round-02.md",
+      "delivered": "skills/safesell-product-visuals/references/bookends-round-02.md",
+      "sha256": "07d37bfe171b95556ac388a35dd621e6d22851cacd94956197293af2d3c7321b",
+      "size_bytes": 4507
+    },
+    {
+      "original": "references/bookends-round-03.md",
+      "delivered": "skills/safesell-product-visuals/references/bookends-round-03.md",
+      "sha256": "0070802f207387f1a9e941de76566813209df345dbbdf6979941c762f7e49f88",
+      "size_bytes": 4441
+    },
+    {
+      "original": "references/bookends-scene-calibration.md",
+      "delivered": "skills/safesell-product-visuals/references/bookends-scene-calibration.md",
+      "sha256": "3dc5ca65310b60626ebf8282a45e2dbbc78b7390b1d47db0578ec100416319d3",
+      "size_bytes": 4640
+    },
+    {
+      "original": "references/bookends-trial.md",
+      "delivered": "skills/safesell-product-visuals/references/bookends-trial.md",
+      "sha256": "c0ffd649caee8b3c981e2215271549dcbdee24b09ce55c975f01b1977d09838f",
+      "size_bytes": 3259
+    },
+    {
+      "original": "references/cable-set-calibration.md",
+      "delivered": "skills/safesell-product-visuals/references/cable-set-calibration.md",
+      "sha256": "5466861d564f93ff64bd8cf67603b79dc78b9c3cdf652137d324b8d7f0113c98",
+      "size_bytes": 4731
+    },
+    {
+      "original": "references/category-and-image-routing.md",
+      "delivered": "skills/safesell-product-visuals/references/category-and-image-routing.md",
+      "sha256": "70232e6252fd7773ab0fae8ab78da339f7d6944376503b2842dbf004c07fa5a0",
+      "size_bytes": 5687
+    },
+    {
+      "original": "references/creative-actions.md",
+      "delivered": "skills/safesell-product-visuals/references/creative-actions.md",
+      "sha256": "b5d07f24a3cae01f109a53771ebd1e1911a0da3ecb14196e71363e58e5f3fad9",
+      "size_bytes": 4037
+    },
+    {
+      "original": "references/cross-category-regression.md",
+      "delivered": "skills/safesell-product-visuals/references/cross-category-regression.md",
+      "sha256": "095a7dc66a9b9d8bdcb2476135b0a985809b0f005e76c1d6bfbf0b0caefed447",
+      "size_bytes": 7979
+    },
+    {
+      "original": "references/detector-coverage.md",
+      "delivered": "skills/safesell-product-visuals/references/detector-coverage.md",
+      "sha256": "e6875f2b61291a6a6a297c366e4abf23148904cf34c397ee9649c9e3b0809e12",
+      "size_bytes": 7727
+    },
+    {
+      "original": "references/kinetic-scene-and-type.md",
+      "delivered": "skills/safesell-product-visuals/references/kinetic-scene-and-type.md",
+      "sha256": "b8b90ccd4ab89034daa883dea036de4ecfea4597ca1697eb8c2cd304b6a9fc8d",
+      "size_bytes": 4558
+    },
+    {
+      "original": "references/layout-and-export.md",
+      "delivered": "skills/safesell-product-visuals/references/layout-and-export.md",
+      "sha256": "1fba9a40b64cf6612cc6eeec39b76a6468a09f7b7e4516413dbee18ebc8188e0",
+      "size_bytes": 4010
+    },
+    {
+      "original": "references/listing-seven-set.md",
+      "delivered": "skills/safesell-product-visuals/references/listing-seven-set.md",
+      "sha256": "29d3819a7e5a49be3781962b4afcb3f824950208eaeaa186d8e709bb0515a130",
+      "size_bytes": 5127
+    },
+    {
+      "original": "references/material-tension.md",
+      "delivered": "skills/safesell-product-visuals/references/material-tension.md",
+      "sha256": "1f43d9b8ab81d7c62121a2e6003d41c9eec98693a190e4ee5880dbfa4176135f",
+      "size_bytes": 8296
+    },
+    {
+      "original": "references/production-and-review.md",
+      "delivered": "skills/safesell-product-visuals/references/production-and-review.md",
+      "sha256": "55b3f8306e02b70643fb5f0edf2e3b72745aa3a6cbb11cf6c92bfaa3cf37b6b2",
+      "size_bytes": 7174
+    },
+    {
+      "original": "references/prompt-recipes.md",
+      "delivered": "skills/safesell-product-visuals/references/prompt-recipes.md",
+      "sha256": "2f3885ae33dc8fa6799a557fdd98aad521285a7a136d6c1a9a27a3d0494f1e2b",
+      "size_bytes": 5657
+    },
+    {
+      "original": "references/realism-and-postprocess.md",
+      "delivered": "skills/safesell-product-visuals/references/realism-and-postprocess.md",
+      "sha256": "c2fd1643df0ca8c395a89f9cfd7432f8308025be54d24d7dedac6e280fdcb329",
+      "size_bytes": 10279
+    },
+    {
+      "original": "references/recipe-learning.md",
+      "delivered": "skills/safesell-product-visuals/references/recipe-learning.md",
+      "sha256": "06e5896c6ef7c6e709b4dbede9519bdea1cadc9ed9eb27bcc03a28ec07c6976d",
+      "size_bytes": 6920
+    },
+    {
+      "original": "references/recipes/beauty-sensory-cream.v1.json",
+      "delivered": "skills/safesell-product-visuals/references/recipes/beauty-sensory-cream.v1.json",
+      "sha256": "dcaf04cae0376834131cac7daf6c74e65d3dd4f0e85cecee012d7c0a1e51b85c",
+      "size_bytes": 3753
+    },
+    {
+      "original": "references/recipes/cable-spatial.v1.json",
+      "delivered": "skills/safesell-product-visuals/references/recipes/cable-spatial.v1.json",
+      "sha256": "e92c09ffc01c13e62c87a63981e08928003f54ccd3d3af112888a1ba97b25760",
+      "size_bytes": 5972
+    },
+    {
+      "original": "references/recipes/cleaning-precision-clean.v1.json",
+      "delivered": "skills/safesell-product-visuals/references/recipes/cleaning-precision-clean.v1.json",
+      "sha256": "4bfa39cef45125bb763d4dd4384d388ce95323496f9eba43fea9c296b0c9b10c",
+      "size_bytes": 4360
+    },
+    {
+      "original": "references/recipes/cooking-kinetic-spatial.v1.json",
+      "delivered": "skills/safesell-product-visuals/references/recipes/cooking-kinetic-spatial.v1.json",
+      "sha256": "a299b4e6b35a9323b6c95b325b62ed72e7612f245dcebee635c85ca46889c116",
+      "size_bytes": 7939
+    },
+    {
+      "original": "references/recipes/electronics-outdoor-rhythmic.v1.json",
+      "delivered": "skills/safesell-product-visuals/references/recipes/electronics-outdoor-rhythmic.v1.json",
+      "sha256": "9b0f495fd78a66fe7f277b38dfb5a8fae3761bd507b14e445c62b687d9896e10",
+      "size_bytes": 3743
+    },
+    {
+      "original": "references/recipes/fashion-soft-editorial.v1.json",
+      "delivered": "skills/safesell-product-visuals/references/recipes/fashion-soft-editorial.v1.json",
+      "sha256": "90172ca37d7b6bd52be9da6dfb80f240f06d4e7d2dc09adaa73d9a79f9d95c4a",
+      "size_bytes": 3558
+    },
+    {
+      "original": "references/recipes/food-crisp-pop.v1.json",
+      "delivered": "skills/safesell-product-visuals/references/recipes/food-crisp-pop.v1.json",
+      "sha256": "7566837935358130fd0c631f8076fe3bdd4967fa329d4022a64154e789e78198",
+      "size_bytes": 3733
+    },
+    {
+      "original": "references/recipes/furniture-sculptural-home.v1.json",
+      "delivered": "skills/safesell-product-visuals/references/recipes/furniture-sculptural-home.v1.json",
+      "sha256": "979cd9f0e3b5b1eda1e4c7875e8382882ef1f47af8d8ef956fd8c1d1c3beefb5",
+      "size_bytes": 4265
+    },
+    {
+      "original": "references/recipes/garden-botanical-precision.v1.json",
+      "delivered": "skills/safesell-product-visuals/references/recipes/garden-botanical-precision.v1.json",
+      "sha256": "2ed8c77b1085f841a6bb35d884e14c80d8ce1b4941d0f7195650a096f7a77538",
+      "size_bytes": 3623
+    },
+    {
+      "original": "references/recipes/index.json",
+      "delivered": "skills/safesell-product-visuals/references/recipes/index.json",
+      "sha256": "158a91a332ed9f30c322a6be90de9624624b4e2ac0f4c006e0783ea224cae9bf",
+      "size_bytes": 10577
+    },
+    {
+      "original": "references/recipes/kitchen-fresh-kinetic.v1.json",
+      "delivered": "skills/safesell-product-visuals/references/recipes/kitchen-fresh-kinetic.v1.json",
+      "sha256": "8a6d1dcd60e4e8a740694bb553f22e36907eec055076768878a99477de22f6d3",
+      "size_bytes": 4349
+    },
+    {
+      "original": "references/recipes/pet-gentle-fluid.v1.json",
+      "delivered": "skills/safesell-product-visuals/references/recipes/pet-gentle-fluid.v1.json",
+      "sha256": "22643613906e15671e2aeecea1c15c9d62839ef3df204e47a26bc69fb4057bb5",
+      "size_bytes": 3728
+    },
+    {
+      "original": "references/recipes/sports-grounded-movement.v1.json",
+      "delivered": "skills/safesell-product-visuals/references/recipes/sports-grounded-movement.v1.json",
+      "sha256": "35a7ae315a9b76b5b3094247df16ebf9a39da772bbb1bc114eb6e5d3ed347c06",
+      "size_bytes": 3546
+    },
+    {
+      "original": "references/recipes/steamer-tactile.v1.json",
+      "delivered": "skills/safesell-product-visuals/references/recipes/steamer-tactile.v1.json",
+      "sha256": "d050d88fa56dfaa4ba4704c3842819f6a71d025696d1522dbc30cacbc17cf86f",
+      "size_bytes": 8392
+    },
+    {
+      "original": "references/recipes/tools-industrial-axis.v1.json",
+      "delivered": "skills/safesell-product-visuals/references/recipes/tools-industrial-axis.v1.json",
+      "sha256": "b76ec68e3bb68d863a4ca445b5452bfbb4a7878379ac661d6b84b16bc2e4f7e6",
+      "size_bytes": 3517
+    },
+    {
+      "original": "references/recipes/toys-playful-geometric.v1.json",
+      "delivered": "skills/safesell-product-visuals/references/recipes/toys-playful-geometric.v1.json",
+      "sha256": "46180e963e072846c468cccc6cf6791781ff5daf320c8a6922751ce0f93f852b",
+      "size_bytes": 3715
+    },
+    {
+      "original": "references/reusable-brief-and-prompt.md",
+      "delivered": "skills/safesell-product-visuals/references/reusable-brief-and-prompt.md",
+      "sha256": "1c2bb973c622164f505d8e596303dce3754eb2e9da8d5672731924db788437c1",
+      "size_bytes": 6052
+    },
+    {
+      "original": "references/sample-analysis.md",
+      "delivered": "skills/safesell-product-visuals/references/sample-analysis.md",
+      "sha256": "1461eadfdb65956b617a8c0e9af4e189be9521952f742103c80e60fba0972392",
+      "size_bytes": 15769
+    },
+    {
+      "original": "references/sample-fidelity.md",
+      "delivered": "skills/safesell-product-visuals/references/sample-fidelity.md",
+      "sha256": "718f721f073031f2a22f1c1269c012b12e1f73fb0dae731d148fac387431d350",
+      "size_bytes": 7278
+    },
+    {
+      "original": "references/spatial-type-and-motion.md",
+      "delivered": "skills/safesell-product-visuals/references/spatial-type-and-motion.md",
+      "sha256": "6845d22c8a7e411d9f7201fe95c7c7f94f77b7d1eb941b5bd6b78cbc55b68647",
+      "size_bytes": 4656
+    },
+    {
+      "original": "references/visual-review-protocol.md",
+      "delivered": "skills/safesell-product-visuals/references/visual-review-protocol.md",
+      "sha256": "5bc346ea77a5a44c787e45896593a55325f524c45549a255871327704c20ddd7",
+      "size_bytes": 7189
+    },
+    {
+      "original": "references/watermark-research.md",
+      "delivered": "skills/safesell-product-visuals/references/watermark-research.md",
+      "sha256": "12952d2b814db73a70b728fd99995bd400bc1023eaa9a2df6169051033c651af",
+      "size_bytes": 5180
+    },
+    {
+      "original": "references/white-main-use.md",
+      "delivered": "skills/safesell-product-visuals/references/white-main-use.md",
+      "sha256": "82dd1e7fb90af4b6c588cee71c0f45f6a89b4c6a934259da92ebc8f3dc776c5d",
+      "size_bytes": 3801
+    },
+    {
+      "original": "scripts/_trustmark_ecc/__init__.py",
+      "delivered": "skills/safesell-product-visuals/scripts/_trustmark_ecc/__init__.py",
+      "sha256": "178cfc51ca64c019e2e4ea1eedbc7941da1f06a6a51f4f383d35f4bc71e09f75",
+      "size_bytes": 211
+    },
+    {
+      "original": "scripts/_trustmark_ecc/bchecc.py",
+      "delivered": "skills/safesell-product-visuals/scripts/_trustmark_ecc/bchecc.py",
+      "sha256": "d81baac167a3fa36d35a7834e71f45256e83ff004270a35daff10039b95f3a18",
+      "size_bytes": 12582
+    },
+    {
+      "original": "scripts/_trustmark_ecc/datalayer.py",
+      "delivered": "skills/safesell-product-visuals/scripts/_trustmark_ecc/datalayer.py",
+      "sha256": "a570cf4b208a0299c299b1a1702542f0bf5d0ec54f8a1d7600a53b73b2f310c3",
+      "size_bytes": 9478
+    },
+    {
+      "original": "scripts/_trustmark_ecc/LICENSE",
+      "delivered": "skills/safesell-product-visuals/scripts/_trustmark_ecc/LICENSE",
+      "sha256": "58d47a5cdfaaceda98925d845e8207d90336c62347a2383f95962b667b1cdaf5",
+      "size_bytes": 1218
+    },
+    {
+      "original": "scripts/delivery_gate.py",
+      "delivered": "skills/safesell-product-visuals/scripts/delivery_gate.py",
+      "sha256": "0412feda2f11fd130fd925a5af2e10d8f82c9c9056a13aee6253c9bab4d436fd",
+      "size_bytes": 10023
+    },
+    {
+      "original": "scripts/detect_image_signals.py",
+      "delivered": "skills/safesell-product-visuals/scripts/detect_image_signals.py",
+      "sha256": "40e19df075e7a9e7a8efca7912edb6abd6bb217591fc7f32943d3ba63b1a9e48",
+      "size_bytes": 14724
+    },
+    {
+      "original": "scripts/png_provenance_export.py",
+      "delivered": "skills/safesell-product-visuals/scripts/png_provenance_export.py",
+      "sha256": "8440b7da8bb76e1b68009656eade6d8d69c6ee822a66cf578ad1abe77a2c32d5",
+      "size_bytes": 6297
+    },
+    {
+      "original": "scripts/recipe_library.py",
+      "delivered": "skills/safesell-product-visuals/scripts/recipe_library.py",
+      "sha256": "d20587f675ef90c484ee9ee41e70a72999318fa7dc476769bcdb6a66a4d70e36",
+      "size_bytes": 17256
+    },
+    {
+      "original": "scripts/trustmark_local.py",
+      "delivered": "skills/safesell-product-visuals/scripts/trustmark_local.py",
+      "sha256": "6f1e186084de4b81694c2f6cffc3c0d0f867c0f2ae45c2e867ae9178a2d8f907",
+      "size_bytes": 10554
+    },
+    {
+      "original": "scripts/verify_pixel_watermark.py",
+      "delivered": "skills/safesell-product-visuals/scripts/verify_pixel_watermark.py",
+      "sha256": "d192f80088f4fe5e91000e77c8cf3dcf878501c38268ee1365e241b3f559edef",
+      "size_bytes": 5272
+    }
+  ],
+  "changes": [
+    "AI生图SKILL.md renamed to SKILL.md with identical bytes",
+    "Explicit allow_implicit_invocation=true; original YAML retained separately"
+  ],
+  "files": {
+    ".gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+    ".gitignore": "bec9330bc03b176339c9657b20d703cd1c23ecd12635e489dc820848f9755ad1",
+    "original-metadata/openai.yaml": "44b8c7794559e360dbf6cbed7528b137cf5c37b3f11659ba6a5cfeed91ad291a",
+    "README.md": "508ec5e678eea9bc3df06cd0eba564cb693bf27cbaa9e00ae414e2a6e201096b",
+    "skills/safesell-product-visuals/agents/openai.yaml": "41bfe5b075194f29a4c98e7f84905eb11ac1be86b3907508fb3350df2ce86239",
+    "skills/safesell-product-visuals/assets/approved-spatial-type-v3.png": "177ac36c2a134ea2bf675caac174eada1af95744f9cfd10a24ffe1b4ae79ec67",
+    "skills/safesell-product-visuals/assets/approved-style.json": "a0de31c18bb60f602acfc38746ae0061a9ed39dd2104c72196dc44f8420c7eb6",
+    "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/anchor-0.png": "8f1e26a8607130bd278ef666d0c48af60d9e16d397cf2aea79396960539edfcf",
+    "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/anchor-1.jpg": "18f1ff29fd6c64f12cafec4e5bea74f6bea5ab2e032d81f26eabf2f33ca9ced2",
+    "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/review-0/evidence-0.json": "38d4785744686cdc5c377efc9c0b196d53d786fc56e1ba3bc3642966fb64b9d7",
+    "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/review-0/evidence-1.png": "8f1e26a8607130bd278ef666d0c48af60d9e16d397cf2aea79396960539edfcf",
+    "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/review-0/evidence-2.json": "06efce756c658818c06673392b3992b4314e845e45055101c4279a5d9e293794",
+    "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/review-0/evidence-3.jpg": "18f1ff29fd6c64f12cafec4e5bea74f6bea5ab2e032d81f26eabf2f33ca9ced2",
+    "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/review-0/evidence-4.json": "299c97474bd0e40dc1fee3a13663c295dc4ec8d4b35f75636c9ebf8560e23fa4",
+    "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/review-0/evidence-5.png": "57d0a0881c52235af54f5470c528b617b849c83bc9bd2e6d464689da01414470",
+    "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/review-0/original-review.json": "2125bb590b569d5a54e97f1ed52e8acdcbdd8e2ce577ff8fb2c9a043c3d53033",
+    "skills/safesell-product-visuals/assets/recipes/beauty-sensory-cream/v1/review-0/review.json": "4cdc67930ef0a7a15b522dbf09579c92c7e9b26ab5f021eb109f553f47d33085",
+    "skills/safesell-product-visuals/assets/recipes/cable/material-v5.png": "83f0458fc5ecb1a67649aff3faf0fe665a947cff110bde63e9098601f631a8a6",
+    "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/anchor-0.png": "ebc0df7aafdc3574856685ba046918ae0e25a3e274a0eb96cf46f160959ea74c",
+    "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/anchor-1.jpg": "5ca063e4285cfe365f4a43b83e6b199b5eb68e446a68b056104f9f42e7716db8",
+    "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/review-0/evidence-0.json": "4e0f22b0afc81ae8d5181e58349c008af8f9f7a890d9d54f0a65bc837056c33f",
+    "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/review-0/evidence-1.png": "ebc0df7aafdc3574856685ba046918ae0e25a3e274a0eb96cf46f160959ea74c",
+    "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/review-0/evidence-2.json": "6451bfdd8be217a22f7387fe99f74e54d9fe2d2d4f1463b62e40dd8472068df6",
+    "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/review-0/evidence-3.jpg": "5ca063e4285cfe365f4a43b83e6b199b5eb68e446a68b056104f9f42e7716db8",
+    "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/review-0/evidence-4.json": "2a0e42726e24e40e1c7278c4be71fad6852265fd326c7323eff1e54e6fefdd58",
+    "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/review-0/evidence-5.png": "57d0a0881c52235af54f5470c528b617b849c83bc9bd2e6d464689da01414470",
+    "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/review-0/original-review.json": "6cc60bd76590b46ad378b602ab7d1452b6f68089ff34c765426ee7fb998476a6",
+    "skills/safesell-product-visuals/assets/recipes/cleaning-precision-clean/v1/review-0/review.json": "4c401eb99246520c536a73fa097f3eb67bd65bae745bb557cc9bcdbf93c241e7",
+    "skills/safesell-product-visuals/assets/recipes/cooking-kinetic-spatial/v1/motion-anchor.png": "6e703a71d31e4af65b102de90d2834ac25529887042d7596c8858849f4bcf4da",
+    "skills/safesell-product-visuals/assets/recipes/cooking-kinetic-spatial/v1/motion-brief.json": "2689484898ea661e533b63d0250020a16a2aad7a8457583f5fadad738ad8a7c2",
+    "skills/safesell-product-visuals/assets/recipes/cooking-kinetic-spatial/v1/motion-review.json": "3e558a16ce0413dbee928cc0725157692665d68b806d597f534d6215dbf5e133",
+    "skills/safesell-product-visuals/assets/recipes/cooking-kinetic-spatial/v1/source-identity.jpg": "2341cecf3ac2b72b5e8fd1250d04c0e6a368326ec89126983557e1157b540220",
+    "skills/safesell-product-visuals/assets/recipes/cooking-kinetic-spatial/v1/type-anchor.png": "dbdbfc0da8be232f1ac11639cfcf15b7cd0431d5a5242d7922c586c8d1ea4062",
+    "skills/safesell-product-visuals/assets/recipes/cooking-kinetic-spatial/v1/type-brief.json": "581d07fce8cee53a8a1d49c9bc2f1c8318fd1cbb2d08e39f82205876621d6113",
+    "skills/safesell-product-visuals/assets/recipes/cooking-kinetic-spatial/v1/type-review.json": "b67f7c325b8fbd8b7375fa852469bf1bf4ad79872d9c0585d04340ff760084d8",
+    "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/anchor-0.png": "48b392ee98cd7585a72e3d48f0e771fc86faca0124f62d8212a62d392d177c8b",
+    "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/anchor-1.jpg": "ad3b75d983ae7fb347ea34658650c5401236ae526df2460eae0ba5ae7b706385",
+    "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-0.json": "2f4a720f9095ed513ff10ed108f79e088bcc8bf8a25122124ff82b6fb6824b32",
+    "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-1.png": "48b392ee98cd7585a72e3d48f0e771fc86faca0124f62d8212a62d392d177c8b",
+    "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-2.json": "d140666207820cfc0b27992396d7487c5bc20f31460424b130025ed9260c76ff",
+    "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-3.jpg": "ad3b75d983ae7fb347ea34658650c5401236ae526df2460eae0ba5ae7b706385",
+    "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-4.json": "972b321d1cff767e1615f99e001f79df0a5e94f38b6dfd9fd9c171bc8e32e455",
+    "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/review-0/evidence-5.jpg": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+    "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/review-0/original-review.json": "79b349bc2b9734c7fe4e051b1bc042ff3a1c33fa1a5de14c14e88d646873e02d",
+    "skills/safesell-product-visuals/assets/recipes/electronics-outdoor-rhythmic/v1/review-0/review.json": "58768c9e17af6388ca12e0a986bf698683a262cab56c9d0526c0ea190065333d",
+    "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/anchor-0.png": "50bce4292ed9ded7fbcbed85665f63fb6179afe21f71279febedaca62b334ea5",
+    "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/anchor-1.jpg": "d2ef4efe85c9109c349be9c384a2c9a9714e0ec54edc89949e06365d1bd659c4",
+    "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/evidence-0.json": "f335bb119bad089001afbd4215bda0610d7b372c792e1d53cf1853c6eed47ec6",
+    "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/evidence-1.png": "50bce4292ed9ded7fbcbed85665f63fb6179afe21f71279febedaca62b334ea5",
+    "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/evidence-2.json": "75cbc748cf6494e165d6fc142f32d229124db90659abb5c7a482b10b5ffcdf5d",
+    "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/evidence-3.jpg": "d2ef4efe85c9109c349be9c384a2c9a9714e0ec54edc89949e06365d1bd659c4",
+    "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/evidence-4.json": "74182134b49fc3a0fef113e593993b8fdf6b13e223004019f9b35b5926988729",
+    "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/evidence-5.png": "57d0a0881c52235af54f5470c528b617b849c83bc9bd2e6d464689da01414470",
+    "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/evidence-6.jpg": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+    "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/original-review.json": "4593b06d6aa50e81f8082c84f9602b29574c7523ed41d20fc148e827844a4b9f",
+    "skills/safesell-product-visuals/assets/recipes/fashion-soft-editorial/v1/review-0/review.json": "ec79bee40ad6fe5f0c9ed4204c2efd29609afbd876d0996da2b46589fcce513e",
+    "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/anchor-0.png": "7c6a3f203d7723383a88cf5112d8c7ff4901e2cb5ece96656f8e31227f2b5fc8",
+    "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/anchor-1.jpg": "bccffa8a2024dd37d57141995e2aef7f362ef4b8dd33d2a837194243dc771c59",
+    "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/evidence-0.json": "74ae46d8f40e875656b67085c0411b735f9edd5ec4ca95edb00c6c852459d41c",
+    "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/evidence-1.png": "7c6a3f203d7723383a88cf5112d8c7ff4901e2cb5ece96656f8e31227f2b5fc8",
+    "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/evidence-2.json": "af985feae5432ad4a6fdf51285eef84a7687ad8caa381229d2cddf4626fed9e4",
+    "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/evidence-3.jpg": "bccffa8a2024dd37d57141995e2aef7f362ef4b8dd33d2a837194243dc771c59",
+    "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/evidence-4.json": "59265ff7199a897301587722694c985aea7aecc52097473eebcc18ee5fbb78e2",
+    "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/evidence-5.jpg": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+    "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/evidence-6.jpg": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+    "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/original-review.json": "c91012596f1ebc7e0978ed48a448cfc3d6eb070ed2b16e88c91632d6893b17b9",
+    "skills/safesell-product-visuals/assets/recipes/food-crisp-pop/v1/review-0/review.json": "64d3c462ea264da08412359188146e15a0b25be524238fadc4db9759196ba397",
+    "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/anchor-0.png": "f3cd4fd173ba55053653f8895da91e1e22d44694c3c687927f914dc3fbad4441",
+    "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/anchor-1.jpg": "4637046f0de6697e1c02f31242887a8192f534c2627bf50abf1ff68f6c7f9894",
+    "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/evidence-0.json": "607a8b545504f8601543a335d181be31d6ac383176ed11ebe77a3485e2463b92",
+    "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/evidence-1.png": "f3cd4fd173ba55053653f8895da91e1e22d44694c3c687927f914dc3fbad4441",
+    "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/evidence-2.json": "963287c807c1f7fa39dc5788a98606f3686584391a1081e832de584ca9c28dd6",
+    "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/evidence-3.jpg": "4637046f0de6697e1c02f31242887a8192f534c2627bf50abf1ff68f6c7f9894",
+    "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/evidence-4.json": "56784342ffcb98d0a43ac10d63ebc0d16b06b50ac508461884056bbffdf9cf13",
+    "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/evidence-5.png": "57d0a0881c52235af54f5470c528b617b849c83bc9bd2e6d464689da01414470",
+    "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/evidence-6.jpg": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+    "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/original-review.json": "082e3d72e993d9f5edc23492b62896f3d1948dabdaefe56b0d5cc4bedf24ca0f",
+    "skills/safesell-product-visuals/assets/recipes/furniture-sculptural-home/v1/review-0/review.json": "5d4b6372687d0433a86d4cd699eac9b816ee8b2dd113d3e61e878b380ab63762",
+    "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/anchor-0.png": "1d8aa9a03a2e6e14148afb43da0ef1a217c55e2233eab8595d30e4a213fa14cd",
+    "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/anchor-1.jpg": "0fbae6fd6e98115a936a788e2c80c2bf4cdf3ae6098e2e6be6fd5e7662592431",
+    "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/evidence-0.json": "2aec9a6d8c56d006e84e1815997b2db099cd783dda50d1e3ae997684f3f833a1",
+    "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/evidence-1.png": "1d8aa9a03a2e6e14148afb43da0ef1a217c55e2233eab8595d30e4a213fa14cd",
+    "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/evidence-2.json": "98e1c90cb2de28cedae69f2aa13714dfc98e90a711ec29320868cbacba92c3c3",
+    "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/evidence-3.jpg": "0fbae6fd6e98115a936a788e2c80c2bf4cdf3ae6098e2e6be6fd5e7662592431",
+    "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/evidence-4.json": "f7adf1d2861dadffa2a9104d6f2ad01635e41ac2ef7fd73e12016486bce310d9",
+    "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/evidence-5.jpg": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+    "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/evidence-6.jpg": "d2d560578abbc356f0cdcf059885aab966cf07991dd74c23f99871f34c788595",
+    "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/original-review.json": "c43b6a881e3d9e45a234c6c4ea9fe1db9c561c529aa224f7d2dcaec491871ed3",
+    "skills/safesell-product-visuals/assets/recipes/garden-botanical-precision/v1/review-0/review.json": "95112248565ad4a315a13490ba0671b069c714be29c5729177ebfbefc6a847e0",
+    "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/anchor-0.png": "b4005008f6a61a67638e81124454fa1c889e028a72951ef295a669230c5832d7",
+    "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/anchor-1.jpg": "0a3bf6638f9d17ca87db8d54bb43b5d926cb789e555f731232fbce4050356b69",
+    "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-0.json": "fa66f7beb4d3e840746f693852e56b9f753f299d8a46379742ceeea7e931dd43",
+    "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-1.png": "b4005008f6a61a67638e81124454fa1c889e028a72951ef295a669230c5832d7",
+    "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-2.json": "dc93d6e37e214be1cbd7dc02f0b45dd1df6846b9fb06e3255439488cd21690e5",
+    "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-3.jpg": "0a3bf6638f9d17ca87db8d54bb43b5d926cb789e555f731232fbce4050356b69",
+    "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-4.json": "2811d3f4d04fe789e06b59265290bd4e7ad737c04e4fcf25d7dfb00714ad04c4",
+    "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/review-0/evidence-5.jpg": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+    "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/review-0/original-review.json": "cbb22e70e5d34a1b24c21d2142b211bb80ef492bc2a1fc3f94c445aed7ab4742",
+    "skills/safesell-product-visuals/assets/recipes/kitchen-fresh-kinetic/v1/review-0/review.json": "4ec3a9efd7c0088f9f34e47a98ac392b9e9596b46a3e397f438316ff04500737",
+    "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/anchor-0.png": "eb84b9e498d60241b687e1d6edf3869622538c8e818b0c7f8a635d618b86b202",
+    "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/anchor-1.jpg": "0ed2d5c2c53bed0cd007e316a948859b28bee9662432fba145f5f19d3342de93",
+    "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/evidence-0.json": "5085c2a4501796a70b20ab61ab05406ef5287edac1142b68ee046f2c001056dd",
+    "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/evidence-1.png": "eb84b9e498d60241b687e1d6edf3869622538c8e818b0c7f8a635d618b86b202",
+    "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/evidence-2.json": "983afb11a54fd8b6967b2514eab6e7a9f592281f8b832404684c544ecd106913",
+    "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/evidence-3.jpg": "0ed2d5c2c53bed0cd007e316a948859b28bee9662432fba145f5f19d3342de93",
+    "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/evidence-4.json": "b41e4825ed6bdcdbb8590c99585fcc517dec9e2b5248804c751866ff727d9a4c",
+    "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/evidence-5.jpg": "892fedc432c1417b61be8e3f56d564f6b2b8d61da2c979fa741ccb6f500b1545",
+    "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/evidence-6.jpg": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+    "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/original-review.json": "2d453fc4190e5557c39516975d030ba97eca7db993fd83ba3e6aeb8eef93c70c",
+    "skills/safesell-product-visuals/assets/recipes/pet-gentle-fluid/v1/review-0/review.json": "f4d04379ad4276700277e9b05db1deabec1872fa092d5c3403d37e6d6a26843f",
+    "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/anchor-0.png": "dc7655fe13f3380075f8a9a2967771eae6f402886e85b6e83f28d082481a7d88",
+    "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/anchor-1.jpg": "f67c1d627724c9fe897b55d2bb824a7ccfe1e6b964f3c887e61b76c51382a033",
+    "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/evidence-0.json": "6c5de83fac6ac597f063ab38241689c08ff24d08663dbf2e3d8367ecef8c037f",
+    "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/evidence-1.png": "dc7655fe13f3380075f8a9a2967771eae6f402886e85b6e83f28d082481a7d88",
+    "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/evidence-2.json": "307ac0bd16a7abc11fbf6c719789637150c84868facce7516fd5841a81558b0e",
+    "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/evidence-3.jpg": "f67c1d627724c9fe897b55d2bb824a7ccfe1e6b964f3c887e61b76c51382a033",
+    "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/evidence-4.json": "f8d04b1f1d06ec69bfd49708d3dc696cd164a4627a16e3bf3333822a768f2e17",
+    "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/evidence-5.jpg": "d2d560578abbc356f0cdcf059885aab966cf07991dd74c23f99871f34c788595",
+    "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/evidence-6.jpg": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+    "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/original-review.json": "73ca3fea25029e2f68c57e933850babc9cee29d9d1c64356ffcf56aaa087ed24",
+    "skills/safesell-product-visuals/assets/recipes/sports-grounded-movement/v1/review-0/review.json": "d3b501878b016386abcc40a9f1f5d1f65da9253cae6579b772a0f92ca640991a",
+    "skills/safesell-product-visuals/assets/recipes/steamer/01-hero.png": "57d0a0881c52235af54f5470c528b617b849c83bc9bd2e6d464689da01414470",
+    "skills/safesell-product-visuals/assets/recipes/steamer/02-feature.png": "3099fa41d45a66035ef8664f1f35428c9d6e6de94bd6093c41c182086924cc79",
+    "skills/safesell-product-visuals/assets/recipes/steamer/03-material.png": "0cabeaaeb57682fb499916199551553f30a9444d5e182c70902fc309d92975b4",
+    "skills/safesell-product-visuals/assets/recipes/steamer/04-control-failure.png": "ca9dbc8c900c920f2a1ab566c1b0ee0e4ceb2de6a64eb1a99113b80285d892f7",
+    "skills/safesell-product-visuals/assets/recipes/steamer/04-control.png": "e27bee27131967a89ca8973524be9e606e37ceb9c981753c0e3b49b7021fd9e8",
+    "skills/safesell-product-visuals/assets/recipes/steamer/05-use.png": "ddd8495967ff643515c57ec20c48c1c6363ae695e59b5363daae6567affac88f",
+    "skills/safesell-product-visuals/assets/recipes/steamer/source-control.jpg": "77da5045063876b381fbcd61d836e66a8939ffbbbc0e7f75e11bb987c8d59579",
+    "skills/safesell-product-visuals/assets/recipes/steamer/source-hero.jpg": "bf64fb93622cf62f9a957b0b92d5f31fd18a57e6539dde6963363ba4531e080c",
+    "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/anchor-0.png": "971a6222be4daeaab3b6231b677c5bcb725d46398ebeb8d3a5157b5605f2aebe",
+    "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/anchor-1.jpg": "5d1c7de3ab495b09018c8ed0a5d8f1de8eba976ce6e34c77d7a60bb32854da6b",
+    "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/evidence-0.json": "ac7f030fc8e96d7bbffa823485113c9b610a37b230239be4b5df631c4496b12e",
+    "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/evidence-1.png": "971a6222be4daeaab3b6231b677c5bcb725d46398ebeb8d3a5157b5605f2aebe",
+    "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/evidence-2.json": "c96f0a077785ee66f2d6a365458285eb41cb6bd710f23274d8c6b0b58e661278",
+    "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/evidence-3.jpg": "5d1c7de3ab495b09018c8ed0a5d8f1de8eba976ce6e34c77d7a60bb32854da6b",
+    "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/evidence-4.json": "b4e2a5c7109236d6e1ecf78f0d3efcf7c14f10f283b7ce1c318a71b75c3cbc04",
+    "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/evidence-5.jpg": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+    "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/evidence-6.jpg": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+    "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/original-review.json": "4f20330e330138cae7600d2d105c8caaee2a3eb0198a7c54c0934ec5f255ea29",
+    "skills/safesell-product-visuals/assets/recipes/tools-industrial-axis/v1/review-0/review.json": "80d08d80a27a1311b78ddf1aee0c2336fb397a494e62eed4e14581bb366f5780",
+    "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/anchor-0.png": "d76d0b0e2f49118ae6e75b38e625ba6a74d8b0949474ff61f7a67d8b5f99dcd1",
+    "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/anchor-1.jpg": "8c902d169ac61e9c73d5b473711cce0d704daccebe65320c388e24722d824ecf",
+    "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/evidence-0.json": "e5dd1e623ccb42c0f1f0761ca04d9ed2566fae1ef3169bd6a37b9c62ee709fc5",
+    "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/evidence-1.png": "d76d0b0e2f49118ae6e75b38e625ba6a74d8b0949474ff61f7a67d8b5f99dcd1",
+    "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/evidence-2.json": "47b46c1e3e788e5219eb1152bc26add1d8f3b0ee5305bc62777c9c2216c0015a",
+    "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/evidence-3.jpg": "8c902d169ac61e9c73d5b473711cce0d704daccebe65320c388e24722d824ecf",
+    "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/evidence-4.json": "d19a60646adb8e47411a7af2514ac4375443fb9613d314a74dc1121b697e9a84",
+    "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/evidence-5.jpg": "8a5b2b0642e84df18cc787ad7ad9e17fa406f98b0d3b6403d21c1063580233e2",
+    "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/evidence-6.jpg": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+    "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/evidence-7.jpg": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+    "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/original-review.json": "d38e861d8018fc5e047819fd52c49b91bf810fdd0c4d2c72243c675b844a68ec",
+    "skills/safesell-product-visuals/assets/recipes/toys-playful-geometric/v1/review-0/review.json": "e67ba1adae5943d087dd7629777000c97c4db6b3524fb91da63b301fe85e9260",
+    "skills/safesell-product-visuals/assets/sample-01.jpg": "c47c93f7e94ba34ae0ccd10964093344f04e6c55b76657ac0d66163155cda918",
+    "skills/safesell-product-visuals/assets/sample-02.jpg": "9441b56cb5d16dd1b01fc870f8922c0c69944138050b791c827c1265a0ba6a91",
+    "skills/safesell-product-visuals/assets/sample-03.jpg": "63654adb9c3ec9cc87c650c22f1a9aa3855d35f27e108f7e67cc118a4e30ecee",
+    "skills/safesell-product-visuals/assets/sample-04.jpg": "b34ac06cd3b15360571aca4215982c9ff26d57ec714e9c7cae6c4f4f4fdaff76",
+    "skills/safesell-product-visuals/assets/sample-05.jpg": "892fedc432c1417b61be8e3f56d564f6b2b8d61da2c979fa741ccb6f500b1545",
+    "skills/safesell-product-visuals/assets/sample-06.jpg": "add034ced548d46facaf9aaad3ddb6244d60b954e72737fe5c95763e75722f5c",
+    "skills/safesell-product-visuals/assets/sample-07.jpg": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+    "skills/safesell-product-visuals/assets/sample-08.jpg": "d2d560578abbc356f0cdcf059885aab966cf07991dd74c23f99871f34c788595",
+    "skills/safesell-product-visuals/assets/sample-09.jpg": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+    "skills/safesell-product-visuals/assets/sample-10.jpg": "ee8cdb4094f1bf683410abf145d5b9113af840712a2b6decfba3290dc2687142",
+    "skills/safesell-product-visuals/assets/sample-11.jpg": "a5073990862c53cac107229d4179ab3b9ade915f720ec1916a30f53fc89e21ff",
+    "skills/safesell-product-visuals/assets/samples.json": "f226154f8000cfb747f5a993dcb9e04e255a495921e8affaed08f95238509d45",
+    "skills/safesell-product-visuals/references/bookends-round-02.md": "07d37bfe171b95556ac388a35dd621e6d22851cacd94956197293af2d3c7321b",
+    "skills/safesell-product-visuals/references/bookends-round-03.md": "0070802f207387f1a9e941de76566813209df345dbbdf6979941c762f7e49f88",
+    "skills/safesell-product-visuals/references/bookends-scene-calibration.md": "3dc5ca65310b60626ebf8282a45e2dbbc78b7390b1d47db0578ec100416319d3",
+    "skills/safesell-product-visuals/references/bookends-trial.md": "c0ffd649caee8b3c981e2215271549dcbdee24b09ce55c975f01b1977d09838f",
+    "skills/safesell-product-visuals/references/cable-set-calibration.md": "5466861d564f93ff64bd8cf67603b79dc78b9c3cdf652137d324b8d7f0113c98",
+    "skills/safesell-product-visuals/references/category-and-image-routing.md": "70232e6252fd7773ab0fae8ab78da339f7d6944376503b2842dbf004c07fa5a0",
+    "skills/safesell-product-visuals/references/creative-actions.md": "b5d07f24a3cae01f109a53771ebd1e1911a0da3ecb14196e71363e58e5f3fad9",
+    "skills/safesell-product-visuals/references/cross-category-regression.md": "095a7dc66a9b9d8bdcb2476135b0a985809b0f005e76c1d6bfbf0b0caefed447",
+    "skills/safesell-product-visuals/references/detector-coverage.md": "e6875f2b61291a6a6a297c366e4abf23148904cf34c397ee9649c9e3b0809e12",
+    "skills/safesell-product-visuals/references/kinetic-scene-and-type.md": "b8b90ccd4ab89034daa883dea036de4ecfea4597ca1697eb8c2cd304b6a9fc8d",
+    "skills/safesell-product-visuals/references/layout-and-export.md": "1fba9a40b64cf6612cc6eeec39b76a6468a09f7b7e4516413dbee18ebc8188e0",
+    "skills/safesell-product-visuals/references/listing-seven-set.md": "29d3819a7e5a49be3781962b4afcb3f824950208eaeaa186d8e709bb0515a130",
+    "skills/safesell-product-visuals/references/material-tension.md": "1f43d9b8ab81d7c62121a2e6003d41c9eec98693a190e4ee5880dbfa4176135f",
+    "skills/safesell-product-visuals/references/production-and-review.md": "55b3f8306e02b70643fb5f0edf2e3b72745aa3a6cbb11cf6c92bfaa3cf37b6b2",
+    "skills/safesell-product-visuals/references/prompt-recipes.md": "2f3885ae33dc8fa6799a557fdd98aad521285a7a136d6c1a9a27a3d0494f1e2b",
+    "skills/safesell-product-visuals/references/realism-and-postprocess.md": "c2fd1643df0ca8c395a89f9cfd7432f8308025be54d24d7dedac6e280fdcb329",
+    "skills/safesell-product-visuals/references/recipe-learning.md": "06e5896c6ef7c6e709b4dbede9519bdea1cadc9ed9eb27bcc03a28ec07c6976d",
+    "skills/safesell-product-visuals/references/recipes/beauty-sensory-cream.v1.json": "dcaf04cae0376834131cac7daf6c74e65d3dd4f0e85cecee012d7c0a1e51b85c",
+    "skills/safesell-product-visuals/references/recipes/cable-spatial.v1.json": "e92c09ffc01c13e62c87a63981e08928003f54ccd3d3af112888a1ba97b25760",
+    "skills/safesell-product-visuals/references/recipes/cleaning-precision-clean.v1.json": "4bfa39cef45125bb763d4dd4384d388ce95323496f9eba43fea9c296b0c9b10c",
+    "skills/safesell-product-visuals/references/recipes/cooking-kinetic-spatial.v1.json": "a299b4e6b35a9323b6c95b325b62ed72e7612f245dcebee635c85ca46889c116",
+    "skills/safesell-product-visuals/references/recipes/electronics-outdoor-rhythmic.v1.json": "9b0f495fd78a66fe7f277b38dfb5a8fae3761bd507b14e445c62b687d9896e10",
+    "skills/safesell-product-visuals/references/recipes/fashion-soft-editorial.v1.json": "90172ca37d7b6bd52be9da6dfb80f240f06d4e7d2dc09adaa73d9a79f9d95c4a",
+    "skills/safesell-product-visuals/references/recipes/food-crisp-pop.v1.json": "7566837935358130fd0c631f8076fe3bdd4967fa329d4022a64154e789e78198",
+    "skills/safesell-product-visuals/references/recipes/furniture-sculptural-home.v1.json": "979cd9f0e3b5b1eda1e4c7875e8382882ef1f47af8d8ef956fd8c1d1c3beefb5",
+    "skills/safesell-product-visuals/references/recipes/garden-botanical-precision.v1.json": "2ed8c77b1085f841a6bb35d884e14c80d8ce1b4941d0f7195650a096f7a77538",
+    "skills/safesell-product-visuals/references/recipes/index.json": "158a91a332ed9f30c322a6be90de9624624b4e2ac0f4c006e0783ea224cae9bf",
+    "skills/safesell-product-visuals/references/recipes/kitchen-fresh-kinetic.v1.json": "8a6d1dcd60e4e8a740694bb553f22e36907eec055076768878a99477de22f6d3",
+    "skills/safesell-product-visuals/references/recipes/pet-gentle-fluid.v1.json": "22643613906e15671e2aeecea1c15c9d62839ef3df204e47a26bc69fb4057bb5",
+    "skills/safesell-product-visuals/references/recipes/sports-grounded-movement.v1.json": "35a7ae315a9b76b5b3094247df16ebf9a39da772bbb1bc114eb6e5d3ed347c06",
+    "skills/safesell-product-visuals/references/recipes/steamer-tactile.v1.json": "d050d88fa56dfaa4ba4704c3842819f6a71d025696d1522dbc30cacbc17cf86f",
+    "skills/safesell-product-visuals/references/recipes/tools-industrial-axis.v1.json": "b76ec68e3bb68d863a4ca445b5452bfbb4a7878379ac661d6b84b16bc2e4f7e6",
+    "skills/safesell-product-visuals/references/recipes/toys-playful-geometric.v1.json": "46180e963e072846c468cccc6cf6791781ff5daf320c8a6922751ce0f93f852b",
+    "skills/safesell-product-visuals/references/reusable-brief-and-prompt.md": "1c2bb973c622164f505d8e596303dce3754eb2e9da8d5672731924db788437c1",
+    "skills/safesell-product-visuals/references/sample-analysis.md": "1461eadfdb65956b617a8c0e9af4e189be9521952f742103c80e60fba0972392",
+    "skills/safesell-product-visuals/references/sample-fidelity.md": "718f721f073031f2a22f1c1269c012b12e1f73fb0dae731d148fac387431d350",
+    "skills/safesell-product-visuals/references/spatial-type-and-motion.md": "6845d22c8a7e411d9f7201fe95c7c7f94f77b7d1eb941b5bd6b78cbc55b68647",
+    "skills/safesell-product-visuals/references/visual-review-protocol.md": "5bc346ea77a5a44c787e45896593a55325f524c45549a255871327704c20ddd7",
+    "skills/safesell-product-visuals/references/watermark-research.md": "12952d2b814db73a70b728fd99995bd400bc1023eaa9a2df6169051033c651af",
+    "skills/safesell-product-visuals/references/white-main-use.md": "82dd1e7fb90af4b6c588cee71c0f45f6a89b4c6a934259da92ebc8f3dc776c5d",
+    "skills/safesell-product-visuals/scripts/_trustmark_ecc/__init__.py": "178cfc51ca64c019e2e4ea1eedbc7941da1f06a6a51f4f383d35f4bc71e09f75",
+    "skills/safesell-product-visuals/scripts/_trustmark_ecc/bchecc.py": "d81baac167a3fa36d35a7834e71f45256e83ff004270a35daff10039b95f3a18",
+    "skills/safesell-product-visuals/scripts/_trustmark_ecc/datalayer.py": "a570cf4b208a0299c299b1a1702542f0bf5d0ec54f8a1d7600a53b73b2f310c3",
+    "skills/safesell-product-visuals/scripts/_trustmark_ecc/LICENSE": "58d47a5cdfaaceda98925d845e8207d90336c62347a2383f95962b667b1cdaf5",
+    "skills/safesell-product-visuals/scripts/delivery_gate.py": "0412feda2f11fd130fd925a5af2e10d8f82c9c9056a13aee6253c9bab4d436fd",
+    "skills/safesell-product-visuals/scripts/detect_image_signals.py": "40e19df075e7a9e7a8efca7912edb6abd6bb217591fc7f32943d3ba63b1a9e48",
+    "skills/safesell-product-visuals/scripts/png_provenance_export.py": "8440b7da8bb76e1b68009656eade6d8d69c6ee822a66cf578ad1abe77a2c32d5",
+    "skills/safesell-product-visuals/scripts/recipe_library.py": "d20587f675ef90c484ee9ee41e70a72999318fa7dc476769bcdb6a66a4d70e36",
+    "skills/safesell-product-visuals/scripts/trustmark_local.py": "6f1e186084de4b81694c2f6cffc3c0d0f867c0f2ae45c2e867ae9178a2d8f907",
+    "skills/safesell-product-visuals/scripts/verify_pixel_watermark.py": "d192f80088f4fe5e91000e77c8cf3dcf878501c38268ee1365e241b3f559edef",
+    "skills/safesell-product-visuals/SKILL.md": "ca317d69d6183d26335207103c324257b79e01fe99bce6705ef1f552c0a26ce9"
+  }
+}

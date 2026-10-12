@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "requestId": "IMG-8C029D52",
+  "sku": "AMZ-B0H2C6NK3Y",
+  "purpose": "campaign-use-scene",
+  "version": "scene-dynamic-v2",
+  "authorization": "User asks for ingredients toward the viewer, spoon sweeping aside, diagonal camera and recognizable product at bottom.",
+  "realism": {"mode":"grounded-advertising","disclosure":"Reference-guided AI advertising candidate, not a photographed operating test."},
+  "route": "ai-reference-guided",
+  "composition": {"action":"one hand sweeps the wooden spoon aside; soup ingredients follow a short arc toward the lens","depth":"large foreground food, midground pan and spoon, clear lower stove identity","camera":"Dutch roll with consistent perspective; stove and saucepan actually rest level on counter","contact":"flat saucepan bottom rests on heating coil"},
+  "spatial_type": {"enabled": false},
+  "effects": {"enabled":true,"intent":"high-speed frozen food and soup motion following spoon gesture; no electric or explosive effect"},
+  "message": {"exact_copy":[],"numbers":[]},
+  "sources": [
+    {"file":"D:/CODEX/saixing-erp-ui-demo/output/imagegen/link-sources/2341cecf3ac2b72b5e8fd1250d04c0e6a368326ec89126983557e1157b540220.jpg","role":"exact product identity"},
+    {"file":"C:/Users/TY/AppData/Local/Temp/codex-clipboard-b64b7eaf-6d26-44e1-b425-9943f7e8b525.png","role":"user supplied edit target; not independent structural evidence"},
+    {"file":"D:/CODEX/saixing-erp-ui-demo/output/imagegen/auto-execution/IMG-8C029D52/attempt-1/role-3-source-evidence-resumed.json","role":"source attributed use claims, not performance testing"}
+  ],
+  "review_set": ["product_identity","hand_spoon_operation","pan_coil_contact","motion_causality","product_priority","material_scale","physical_plausibility","style_match","copy_and_claims"],
+  "output": {"requested_aspect_ratio":"4:5","actual_width":1122,"actual_height":1402},
+  "metrics": {"generation_calls":1,"generation_tool":"image_gen","started_at":"2026-10-09T10:07:17Z","completed_by":"2026-10-09T10:08:02Z","input_tokens":null,"output_tokens":null,"cost_receipt":null},
+  "state":"needs-review",
+  "queue_policy":"Manual design variant; original four returned outputs preserved; no approval, application, publishing or recipe promotion."
+}

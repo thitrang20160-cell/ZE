@@ -1,0 +1,118 @@
+{
+  "checks": {
+    "product_identity": {
+      "status": "pass",
+      "evidence": "候选保留原图两支黑橙握柄、闭合黑色上刃与银色下刃、单银色枢轴、柄间弹簧和 FISKARS 标识。"
+    },
+    "copy_and_claims": {
+      "status": "pass",
+      "evidence": "EDGE、GRIP MEETS PRECISION 与 brief 一致，无新增耐用次数、切割能力或材料成分主张。"
+    },
+    "contact_and_operation": {
+      "status": "not-applicable",
+      "evidence": "工具静置在岩石表面，保持原图闭合状态，没有握持或切割动作。"
+    },
+    "style_match": {
+      "status": "pass",
+      "evidence": "近景机械部件、清晰材料纹理与字物交错承接 sample-07.jpg 和 sample-08.jpg 的细节表现方式。"
+    },
+    "product_priority": {
+      "status": "pass",
+      "evidence": "完整剪体斜贯画面，橙柄及银色刃面清晰，植物和远景保持次要层次。"
+    },
+    "purpose_expression": {
+      "status": "pass",
+      "evidence": "握柄表面、枢轴和两种刃面均清楚可见，符合材质对比用途。"
+    },
+    "material_scale": {
+      "status": "pass",
+      "evidence": "橙色握柄细纹、黑色壳体和银色刃面区分自然，纹理没有超过原图可见材料尺度。"
+    },
+    "spatial_type": {
+      "status": "pass",
+      "evidence": "EDGE 位于剪体后方并被刃部及头部遮挡，副文案顺握柄斜向排布。"
+    },
+    "effects": {
+      "status": "not-applicable",
+      "evidence": "brief 关闭特效，候选没有切割轨迹、爆裂或耐用测试演绎。"
+    },
+    "set_consistency": {
+      "status": "not-applicable",
+      "evidence": "review_set 为 false，本次审核单张材质图。"
+    }
+  },
+  "nonblocking_unknowns": [
+    "隐藏连接、实际尺寸与精确材料成分无法确认，且本图未作相关主张。"
+  ],
+  "judgment": "pass",
+  "main_revision": null,
+  "observed_copy": [
+    "EDGE",
+    "GRIP MEETS PRECISION",
+    "FISKARS"
+  ],
+  "scope_limits": [
+    "确认可见材质外观，不确认切割性能、耐用性或平台发布资格。"
+  ],
+  "schema_version": 1,
+  "review_id": "06-garden-v1-independent-review",
+  "recipe_id": "garden-botanical-precision",
+  "recipe_version": 1,
+  "sku": "19864126",
+  "purpose": "material",
+  "reviewed_at": "2026-10-08T15:59:49.828415+00:00",
+  "profile": {
+    "morphology": "hinged-cutting-tool",
+    "action": "display",
+    "style": "botanical-precision",
+    "route": "ai-reference-guided"
+  },
+  "reviewer": {
+    "kind": "ai-vision",
+    "independent_context": true,
+    "model_or_tool": "collaboration agent /root/visual_auditor",
+    "execution_record": {
+      "file": "evidence-2.json",
+      "sha256": "98e1c90cb2de28cedae69f2aa13714dfc98e90a711ec29320868cbacba92c3c3"
+    }
+  },
+  "brief": {
+    "file": "evidence-0.json",
+    "sha256": "2aec9a6d8c56d006e84e1815997b2db099cd783dda50d1e3ae997684f3f833a1"
+  },
+  "output": {
+    "file": "evidence-1.png",
+    "sha256": "1d8aa9a03a2e6e14148afb43da0ef1a217c55e2233eab8595d30e4a213fa14cd"
+  },
+  "sources": [
+    {
+      "file": "evidence-3.jpg",
+      "sha256": "0fbae6fd6e98115a936a788e2c80c2bf4cdf3ae6098e2e6be6fd5e7662592431",
+      "role": "product-identity"
+    },
+    {
+      "file": "evidence-4.json",
+      "sha256": "f7adf1d2861dadffa2a9104d6f2ad01635e41ac2ef7fd73e12016486bce310d9",
+      "role": "copy-evidence"
+    }
+  ],
+  "style_references": [
+    {
+      "file": "evidence-5.jpg",
+      "sha256": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+      "role": "style-reference"
+    },
+    {
+      "file": "evidence-6.jpg",
+      "sha256": "d2d560578abbc356f0cdcf059885aab966cf07991dd74c23f99871f34c788595",
+      "role": "style-reference"
+    }
+  ],
+  "metrics": {
+    "generation_calls": 1,
+    "revision_calls": 0,
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_receipt": null
+  }
+}

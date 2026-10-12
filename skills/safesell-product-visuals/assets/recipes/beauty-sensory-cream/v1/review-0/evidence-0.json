@@ -1,0 +1,74 @@
+{
+  "version": "1.2",
+  "sku": "625527254",
+  "category": "美妆个护",
+  "image_type": "campaign",
+  "profile": {
+    "morphology": "flip-cap-bottle",
+    "action": "display",
+    "style": "sensory-cream",
+    "route": "ai-reference-guided"
+  },
+  "route": "ai-reference-guided",
+  "recipe": {
+    "id": "beauty-sensory-cream",
+    "version": 1,
+    "mode": "explore"
+  },
+  "product_identity": {
+    "reference_files": [
+      "source.jpg"
+    ],
+    "locked": [
+      "lavender rounded flattened bottle, WHITE neck with magenta FLIP CAP, magenta circular eos logo, current yellow/gray typography and vanilla-cashmere strip, source 16 fl oz package"
+    ],
+    "unknown": [
+      "hidden construction",
+      "precise dimensions",
+      "colorimetry"
+    ]
+  },
+  "message": {
+    "exact_copy": [
+      "SOFT",
+      "VANILLA CASHMERE"
+    ],
+    "evidence": []
+  },
+  "composition": {
+    "action": "display",
+    "first_read": "product",
+    "camera": "close bottle and warm neutral folded silky cloth, full label",
+    "visible_result": "柔和瓶体、细腻布料与触感语言"
+  },
+  "spatial_type": {
+    "enabled": true,
+    "relationship": "SOFT behind bottle and fabric edge; local scent copy along cloth crease near bottle"
+  },
+  "effects": {
+    "enabled": false,
+    "scope": null
+  },
+  "material_expression": {
+    "enabled": false,
+    "intent": "柔和瓶体、细腻布料与触感语言"
+  },
+  "review_set": false,
+  "design_intent": "柔和瓶体、细腻布料与触感语言",
+  "transfer": [
+    "柔软折线与瓶体曲面构成软软层次",
+    "香调文字随材料走，包装不改款"
+  ],
+  "reusable_pattern": "{current_packaged_cosmetic} 锁定包装版式和盖型，{soft_material} 以真实细纹框景；{headline} 位于瓶后，被瓶和布边遮挡，{local_copy} 顺折线，无成分夸大或即时疗效演绎。",
+  "style_references": [
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/recipes/steamer/01-hero.png"
+  ],
+  "additional_sources": [],
+  "limits": [
+    "Source image is current flip-cap packaging despite possible generic pump-bottle expectations",
+    "Fabric is contextual sensory styling, not an ingredient or product supplied accessory",
+    "One SKU and one advertising image type; not cross-product validated",
+    "source-guided visual rendering, not CAD or hidden-engineering verification",
+    "baked raster text; not marketplace primary-image compliance approval"
+  ]
+}

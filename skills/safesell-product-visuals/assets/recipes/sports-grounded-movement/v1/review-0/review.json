@@ -1,0 +1,119 @@
+{
+  "checks": {
+    "product_identity": {
+      "status": "pass",
+      "evidence": "候选保留紫色细肋泡沫垫、银色 GAIAM ESSENTIALS 标识及黑色携带带，未增加其他材料层。"
+    },
+    "copy_and_claims": {
+      "status": "pass",
+      "evidence": "UNROLL、MAKE ROOM 与 brief 一致，无厚度、缓冲或耐用数字主张。"
+    },
+    "contact_and_operation": {
+      "status": "pass",
+      "evidence": "近景卷端与右侧铺开垫面连续相接，平面落地，没有断片、穿插或悬空连接。"
+    },
+    "style_match": {
+      "status": "pass",
+      "evidence": "近景弯曲材料与细节放大承接两个锚点，暖色地面和空间文字符合 grounded-movement 方向。"
+    },
+    "product_priority": {
+      "status": "pass",
+      "evidence": "紫色卷端和展开垫面占据主体区域，纹理及标识清晰，背景简洁。"
+    },
+    "purpose_expression": {
+      "status": "pass",
+      "evidence": "卷曲到铺开的连续关系与表面细肋明确表达柔性材质主题。"
+    },
+    "material_scale": {
+      "status": "pass",
+      "evidence": "细肋相对标识保持合理尺度，卷端呈同一种紫色泡沫，未出现夸张内部结构。"
+    },
+    "spatial_type": {
+      "status": "pass",
+      "evidence": "UNROLL 的下缘被卷端遮挡，MAKE ROOM 沿右侧直线垫边排布。"
+    },
+    "effects": {
+      "status": "not-applicable",
+      "evidence": "brief 关闭特效，画面没有弹性轨迹、剖层爆炸或测试演绎。"
+    },
+    "set_consistency": {
+      "status": "not-applicable",
+      "evidence": "review_set 为 false，本次审核单张材质图。"
+    }
+  },
+  "nonblocking_unknowns": [
+    "展开后远端完整尺寸、精确厚度及材料成分无法由原图确认，且本图未作相关主张。"
+  ],
+  "judgment": "pass",
+  "main_revision": null,
+  "observed_copy": [
+    "UNROLL",
+    "MAKE ROOM",
+    "GAIAM",
+    "ESSENTIALS"
+  ],
+  "scope_limits": [
+    "确认可见材料连续性和外观，不确认缓冲、防滑或耐用性能及平台发布资格。"
+  ],
+  "schema_version": 1,
+  "review_id": "07-sports-v1-independent-review",
+  "recipe_id": "sports-grounded-movement",
+  "recipe_version": 1,
+  "sku": "685169867",
+  "purpose": "material",
+  "reviewed_at": "2026-10-08T16:04:43.352483+00:00",
+  "profile": {
+    "morphology": "flexible-sheet",
+    "action": "unroll",
+    "style": "grounded-movement",
+    "route": "ai-reference-guided"
+  },
+  "reviewer": {
+    "kind": "ai-vision",
+    "independent_context": true,
+    "model_or_tool": "collaboration agent /root/visual_auditor",
+    "execution_record": {
+      "file": "evidence-2.json",
+      "sha256": "307ac0bd16a7abc11fbf6c719789637150c84868facce7516fd5841a81558b0e"
+    }
+  },
+  "brief": {
+    "file": "evidence-0.json",
+    "sha256": "6c5de83fac6ac597f063ab38241689c08ff24d08663dbf2e3d8367ecef8c037f"
+  },
+  "output": {
+    "file": "evidence-1.png",
+    "sha256": "dc7655fe13f3380075f8a9a2967771eae6f402886e85b6e83f28d082481a7d88"
+  },
+  "sources": [
+    {
+      "file": "evidence-3.jpg",
+      "sha256": "f67c1d627724c9fe897b55d2bb824a7ccfe1e6b964f3c887e61b76c51382a033",
+      "role": "product-identity"
+    },
+    {
+      "file": "evidence-4.json",
+      "sha256": "f8d04b1f1d06ec69bfd49708d3dc696cd164a4627a16e3bf3333822a768f2e17",
+      "role": "copy-evidence"
+    }
+  ],
+  "style_references": [
+    {
+      "file": "evidence-5.jpg",
+      "sha256": "d2d560578abbc356f0cdcf059885aab966cf07991dd74c23f99871f34c788595",
+      "role": "style-reference"
+    },
+    {
+      "file": "evidence-6.jpg",
+      "sha256": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+      "role": "style-reference"
+    }
+  ],
+  "metrics": {
+    "generation_calls": 1,
+    "revision_calls": 0,
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_receipt": null
+  }
+}

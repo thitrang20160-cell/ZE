@@ -1,0 +1,118 @@
+{
+  "checks": {
+    "product_identity": {
+      "status": "pass",
+      "evidence": "v2 保留白色圆筒、绿色内盆与边沿、黄心白花、中央立柱及低位 catit 标识，未新增水口或配件。"
+    },
+    "copy_and_claims": {
+      "status": "pass",
+      "evidence": "FLOW、A LITTLE EVERYDAY JOY 完整可读且与 brief 一致，无新增健康或过滤主张。"
+    },
+    "contact_and_operation": {
+      "status": "pass",
+      "evidence": "水线从花瓣下方连续下降至盆内水面，落点和波纹清晰，未出现穿盆或悬空断流。"
+    },
+    "style_match": {
+      "status": "pass",
+      "evidence": "柔和宠物场景呼应 sample-05.jpg，后层巨字与商品遮挡呼应 sample-09.jpg。"
+    },
+    "product_priority": {
+      "status": "pass",
+      "evidence": "完整饮水器占据中央，花朵和水路清楚，猫与植物维持背景层次。"
+    },
+    "purpose_expression": {
+      "status": "pass",
+      "evidence": "花形水口、连续下降水线和盆面波纹明确表达流动主题。"
+    },
+    "material_scale": {
+      "status": "pass",
+      "evidence": "白色容器、绿色塑料及透明水流质感分离，花瓣与盆体的相对尺度自然。"
+    },
+    "spatial_type": {
+      "status": "pass",
+      "evidence": "FLOW 的下部被花朵及盆沿局部遮挡，副文案现在位于右侧实际下降水线旁。"
+    },
+    "effects": {
+      "status": "not-applicable",
+      "evidence": "brief 关闭作用点特效，画面只有产品水流与自然水面波纹。"
+    },
+    "set_consistency": {
+      "status": "not-applicable",
+      "evidence": "review_set 为 false，本次审核单张 feature。"
+    }
+  },
+  "nonblocking_unknowns": [
+    "隐藏泵与过滤结构、实际尺寸及精确色度无法确认，且本图未作相关主张。"
+  ],
+  "judgment": "pass",
+  "main_revision": null,
+  "observed_copy": [
+    "FLOW",
+    "A LITTLE EVERYDAY JOY",
+    "catit."
+  ],
+  "scope_limits": [
+    "不确认过滤、健康效果、实测水流性能或平台发布资格。"
+  ],
+  "schema_version": 1,
+  "review_id": "05-pet-v2-independent-review",
+  "recipe_id": "pet-gentle-fluid",
+  "recipe_version": 1,
+  "sku": "877788390",
+  "purpose": "feature",
+  "reviewed_at": "2026-10-08T15:55:44.390699+00:00",
+  "profile": {
+    "morphology": "bowl-fountain",
+    "action": "flow",
+    "style": "gentle-fluid",
+    "route": "ai-reference-guided"
+  },
+  "reviewer": {
+    "kind": "ai-vision",
+    "independent_context": true,
+    "model_or_tool": "collaboration agent /root/visual_auditor",
+    "execution_record": {
+      "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\05-pet\\review-execution-v2.json",
+      "sha256": "983afb11a54fd8b6967b2514eab6e7a9f592281f8b832404684c544ecd106913"
+    }
+  },
+  "brief": {
+    "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\05-pet\\brief.json",
+    "sha256": "5085c2a4501796a70b20ab61ab05406ef5287edac1142b68ee046f2c001056dd"
+  },
+  "output": {
+    "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\05-pet\\candidate-v2.png",
+    "sha256": "eb84b9e498d60241b687e1d6edf3869622538c8e818b0c7f8a635d618b86b202"
+  },
+  "sources": [
+    {
+      "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\05-pet\\source.jpg",
+      "sha256": "0ed2d5c2c53bed0cd007e316a948859b28bee9662432fba145f5f19d3342de93",
+      "role": "product-identity"
+    },
+    {
+      "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\05-pet\\source-evidence.json",
+      "sha256": "b41e4825ed6bdcdbb8590c99585fcc517dec9e2b5248804c751866ff727d9a4c",
+      "role": "copy-evidence"
+    }
+  ],
+  "style_references": [
+    {
+      "file": "C:\\Users\\TY\\.codex\\skills\\safesell-product-visuals\\assets\\sample-05.jpg",
+      "sha256": "892fedc432c1417b61be8e3f56d564f6b2b8d61da2c979fa741ccb6f500b1545",
+      "role": "style-reference"
+    },
+    {
+      "file": "C:\\Users\\TY\\.codex\\skills\\safesell-product-visuals\\assets\\sample-09.jpg",
+      "sha256": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+      "role": "style-reference"
+    }
+  ],
+  "metrics": {
+    "generation_calls": 2,
+    "revision_calls": 1,
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_receipt": null
+  }
+}

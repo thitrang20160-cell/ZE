@@ -1,0 +1,123 @@
+{
+  "checks": {
+    "product_identity": {
+      "status": "pass",
+      "evidence": "候选保留原图薰衣草色扁圆瓶、白色颈部、洋红翻盖及圆形 eos 标识，标签版式和 16 fl oz 规格一致。"
+    },
+    "copy_and_claims": {
+      "status": "pass",
+      "evidence": "SOFT、VANILLA CASHMERE 与 brief 一致，包装的 24H、7 和 16 FL. OZ. (473mL) 均对应原图实字。"
+    },
+    "contact_and_operation": {
+      "status": "not-applicable",
+      "evidence": "瓶体闭盖直立在台面上，没有挤压、涂抹或肌肤接触动作。"
+    },
+    "style_match": {
+      "status": "pass",
+      "evidence": "暖色布料框景、柔和高光和后层大衬线字与 steamer/01-hero.png 的商业质感相符。"
+    },
+    "product_priority": {
+      "status": "pass",
+      "evidence": "完整瓶体居中且标签清晰，洋红盖和标识突出于米色布料背景。"
+    },
+    "purpose_expression": {
+      "status": "pass",
+      "evidence": "柔和瓶体曲面、布料折线和香调文字共同表达 sensory-cream 的感官主题。"
+    },
+    "material_scale": {
+      "status": "pass",
+      "evidence": "细腻塑料瓶与织物纹理分离自然，布料没有覆盖标签或产生夸张材料尺度。"
+    },
+    "spatial_type": {
+      "status": "pass",
+      "evidence": "SOFT 被瓶体和右侧布边局部遮挡，香调副文案位于瓶旁并顺布料折线排布。"
+    },
+    "effects": {
+      "status": "not-applicable",
+      "evidence": "brief 关闭特效，候选没有乳液流动、成分粒子或即时肌肤效果演绎。"
+    },
+    "set_consistency": {
+      "status": "not-applicable",
+      "evidence": "review_set 为 false，本次审核单张 campaign。"
+    }
+  },
+  "nonblocking_unknowns": [
+    "隐藏出液结构、精确色度及未展示背标无法确认，与本图新增宣传内容无关。"
+  ],
+  "judgment": "pass",
+  "main_revision": null,
+  "observed_copy": [
+    "SOFT",
+    "VANILLA CASHMERE",
+    "eos",
+    "evolution of smooth",
+    "shea better",
+    "24H Moisture",
+    "BODY LOTION",
+    "vanilla cashmere",
+    "7 nourishing oils + butters",
+    "soothing protection for dry skin",
+    "natural shea",
+    "sensitive skin",
+    "16 FL. OZ. (473mL)"
+  ],
+  "scope_limits": [
+    "确认包装实字与外观一致，不独立验证包装功效主张或平台发布资格。"
+  ],
+  "schema_version": 1,
+  "review_id": "09-beauty-v1-independent-review",
+  "recipe_id": "beauty-sensory-cream",
+  "recipe_version": 1,
+  "sku": "625527254",
+  "purpose": "campaign",
+  "reviewed_at": "2026-10-08T16:16:40.034445+00:00",
+  "profile": {
+    "morphology": "flip-cap-bottle",
+    "action": "display",
+    "style": "sensory-cream",
+    "route": "ai-reference-guided"
+  },
+  "reviewer": {
+    "kind": "ai-vision",
+    "independent_context": true,
+    "model_or_tool": "collaboration agent /root/visual_auditor",
+    "execution_record": {
+      "file": "evidence-2.json",
+      "sha256": "06efce756c658818c06673392b3992b4314e845e45055101c4279a5d9e293794"
+    }
+  },
+  "brief": {
+    "file": "evidence-0.json",
+    "sha256": "38d4785744686cdc5c377efc9c0b196d53d786fc56e1ba3bc3642966fb64b9d7"
+  },
+  "output": {
+    "file": "evidence-1.png",
+    "sha256": "8f1e26a8607130bd278ef666d0c48af60d9e16d397cf2aea79396960539edfcf"
+  },
+  "sources": [
+    {
+      "file": "evidence-3.jpg",
+      "sha256": "18f1ff29fd6c64f12cafec4e5bea74f6bea5ab2e032d81f26eabf2f33ca9ced2",
+      "role": "product-identity"
+    },
+    {
+      "file": "evidence-4.json",
+      "sha256": "299c97474bd0e40dc1fee3a13663c295dc4ec8d4b35f75636c9ebf8560e23fa4",
+      "role": "copy-evidence"
+    }
+  ],
+  "style_references": [
+    {
+      "file": "evidence-5.png",
+      "sha256": "57d0a0881c52235af54f5470c528b617b849c83bc9bd2e6d464689da01414470",
+      "role": "style-reference"
+    }
+  ],
+  "metrics": {
+    "generation_calls": 1,
+    "revision_calls": 0,
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_receipt": null
+  }
+}

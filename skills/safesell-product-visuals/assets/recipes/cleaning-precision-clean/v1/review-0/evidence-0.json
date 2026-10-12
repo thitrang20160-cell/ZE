@@ -1,0 +1,72 @@
+{
+  "version": "1.2",
+  "sku": "2182471405",
+  "category": "清洁家电",
+  "image_type": "hero",
+  "profile": {
+    "morphology": "handheld-contact-appliance",
+    "action": "display",
+    "style": "precision-clean",
+    "route": "ai-reference-guided"
+  },
+  "route": "ai-reference-guided",
+  "recipe": {
+    "id": "cleaning-precision-clean",
+    "version": 1,
+    "mode": "adapt-one-anchor"
+  },
+  "product_identity": {
+    "reference_files": [
+      "source.jpg"
+    ],
+    "locked": [
+      "slender graphite tube, power button above release button, ribbed side, tapered lower nozzle in charging cradle, original dock and small tool holder"
+    ],
+    "unknown": [
+      "hidden construction",
+      "precise dimensions",
+      "colorimetry"
+    ]
+  },
+  "message": {
+    "exact_copy": [
+      "CLEAN",
+      "READY WHEN YOU ARE"
+    ],
+    "evidence": []
+  },
+  "composition": {
+    "action": "display",
+    "first_read": "product",
+    "camera": "tight three-quarter same face as source, docked upright",
+    "visible_result": "细长硬壳与精确秩序的张力"
+  },
+  "spatial_type": {
+    "enabled": true,
+    "relationship": "large CLEAN behind tube; local caption along tube axis"
+  },
+  "effects": {
+    "enabled": false,
+    "scope": null
+  },
+  "material_expression": {
+    "enabled": false,
+    "intent": "细长硬壳与精确秩序的张力"
+  },
+  "review_set": false,
+  "design_intent": "细长硬壳与精确秩序的张力",
+  "transfer": [
+    "细长主轴决定副字方向",
+    "充电座实接触与局部细纹保持商品身份"
+  ],
+  "reusable_pattern": "{current_product} 保持来源中可见的 {verified_resting_configuration}，主轴贯穿后层 {headline}；{local_copy} 顺机身长轴，细纹和金属/塑胶分离，不补未确认工作附件或吸力演绎。",
+  "style_references": [
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/recipes/steamer/01-hero.png"
+  ],
+  "additional_sources": [],
+  "limits": [
+    "One SKU and one advertising image type; not cross-product validated",
+    "source-guided visual rendering, not CAD or hidden-engineering verification",
+    "baked raster text; not marketplace primary-image compliance approval"
+  ]
+}

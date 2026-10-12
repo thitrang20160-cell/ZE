@@ -1,0 +1,113 @@
+{
+  "checks": {
+    "product_identity": {
+      "status": "pass",
+      "evidence": "v2 保留原图椭圆网布机身、闭合扣环、顶部三枚符号、侧面符号及橙色轮廓 JBL 标识。"
+    },
+    "copy_and_claims": {
+      "status": "pass",
+      "evidence": "实际文字为 CLIP、TAKE YOUR SOUND，与 brief 一致，无新增性能数字。"
+    },
+    "contact_and_operation": {
+      "status": "not-applicable",
+      "evidence": "扣环保持闭合，无挂接或开合动作，机身自然落在岩石上。"
+    },
+    "style_match": {
+      "status": "pass",
+      "evidence": "近景产品、后层巨字和曲线副文案承接 sample-09.jpg 的空间关系，暖光户外背景符合所选方向。"
+    },
+    "product_priority": {
+      "status": "pass",
+      "evidence": "完整音箱占据中央，橙色标识及网布清晰，背景保持虚化。"
+    },
+    "purpose_expression": {
+      "status": "pass",
+      "evidence": "扣环轮廓、织物微纹和完整便携机身均清楚呈现。"
+    },
+    "material_scale": {
+      "status": "pass",
+      "evidence": "网布编织相对标识的尺度接近原图，硬质扣环与织物质感区分自然。"
+    },
+    "spatial_type": {
+      "status": "pass",
+      "evidence": "CLIP 位于后层并被扣环和机身遮挡，完整副文案顺扣环上沿曲线排布。"
+    },
+    "effects": {
+      "status": "not-applicable",
+      "evidence": "brief 关闭特效，候选没有声波、水流或电光演绎。"
+    },
+    "set_consistency": {
+      "status": "not-applicable",
+      "evidence": "review_set 为 false，本次审核单图。"
+    }
+  },
+  "nonblocking_unknowns": [
+    "隐藏接口、实际尺寸及精确色度未展示，且本图未作相关主张。"
+  ],
+  "judgment": "pass",
+  "main_revision": null,
+  "observed_copy": [
+    "CLIP",
+    "TAKE YOUR SOUND",
+    "JBL"
+  ],
+  "scope_limits": [
+    "不确认音质、防水、实测性能或平台发布资格。"
+  ],
+  "schema_version": 1,
+  "review_id": "04-electronics-v2-independent-review",
+  "recipe_id": "electronics-outdoor-rhythmic",
+  "recipe_version": 1,
+  "sku": "5433539246",
+  "purpose": "feature",
+  "reviewed_at": "2026-10-08T15:47:15.686603+00:00",
+  "profile": {
+    "morphology": "rigid-clip-device",
+    "action": "display",
+    "style": "outdoor-rhythmic",
+    "route": "ai-reference-guided"
+  },
+  "reviewer": {
+    "kind": "ai-vision",
+    "independent_context": true,
+    "model_or_tool": "collaboration agent /root/visual_auditor",
+    "execution_record": {
+      "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\04-electronics\\review-execution-v2.json",
+      "sha256": "d140666207820cfc0b27992396d7487c5bc20f31460424b130025ed9260c76ff"
+    }
+  },
+  "brief": {
+    "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\04-electronics\\brief.json",
+    "sha256": "2f4a720f9095ed513ff10ed108f79e088bcc8bf8a25122124ff82b6fb6824b32"
+  },
+  "output": {
+    "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\04-electronics\\candidate-v2.png",
+    "sha256": "48b392ee98cd7585a72e3d48f0e771fc86faca0124f62d8212a62d392d177c8b"
+  },
+  "sources": [
+    {
+      "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\04-electronics\\source.jpg",
+      "sha256": "ad3b75d983ae7fb347ea34658650c5401236ae526df2460eae0ba5ae7b706385",
+      "role": "product-identity"
+    },
+    {
+      "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\04-electronics\\source-evidence.json",
+      "sha256": "972b321d1cff767e1615f99e001f79df0a5e94f38b6dfd9fd9c171bc8e32e455",
+      "role": "copy-evidence"
+    }
+  ],
+  "style_references": [
+    {
+      "file": "C:\\Users\\TY\\.codex\\skills\\safesell-product-visuals\\assets\\sample-09.jpg",
+      "sha256": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+      "role": "style-reference"
+    }
+  ],
+  "metrics": {
+    "generation_calls": 2,
+    "revision_calls": 1,
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_receipt": null
+  }
+}

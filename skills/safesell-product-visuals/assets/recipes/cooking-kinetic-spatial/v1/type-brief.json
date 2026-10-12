@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "requestId": "IMG-8C029D52",
+  "sku": "AMZ-B0H2C6NK3Y",
+  "purpose": "campaign-spatial-typography",
+  "version": "scene-spatial-type-v3",
+  "authorization": "User approved the dynamic picture's visual direction and requested typography interacting with and following the picture.",
+  "user_style_approval": {"quote":"画面对味","scope":"v2 visual direction and motion; not SKU accuracy or operating verification"},
+  "realism": {"mode":"grounded-advertising","disclosure":"Reference-guided AI advertising candidate with raster-baked text; not a photograph or tested performance."},
+  "route": "ai-reference-guided",
+  "composition": {"action":"preserve spoon-driven food arc toward viewer","depth":"near-lens food in front of giant rear-layer lettering, spoon/gesture in middle, visible stove below","product_lock":"black base, orange continuous coil and two leads, silver bowl/supports, left red lamp, centered Elite Gourmet logo and right OFF/HI knob"},
+  "spatial_type": {"enabled":true,"primary":"FLAVOR: giant graphite condensed italic, diagonal rear layer behind recognizable foreground ingredients","action":"STIR UP: smaller burnt-orange lettering following spoon axis","descriptor":"SINGLE BURNER: smaller charcoal lettering following stove front edge/counter perspective","occlusion":"partial strokes may be covered; no entire letters hidden"},
+  "effects": {"enabled":true,"intent":"existing food/soup motion, with restrained typographic depth"},
+  "message": {"exact_copy":["FLAVOR","STIR UP","SINGLE BURNER"],"numbers":[],"claims":"generic creative copy and visible single-burner identity only"},
+  "parent_image":"D:/CODEX/saixing-erp-ui-demo/output/imagegen/auto-execution/IMG-8C029D52/scene-dynamic-v2/working.png",
+  "identity_reference":"D:/CODEX/saixing-erp-ui-demo/output/imagegen/link-sources/2341cecf3ac2b72b5e8fd1250d04c0e6a368326ec89126983557e1157b540220.jpg",
+  "unresolved_parent_findings":["Pan-to-coil support contact not confirmed","Common camera perspective not confirmed"],
+  "output": {"requested_aspect_ratio":"4:5","actual_width":1122,"actual_height":1402,"text_editability":"baked into raster; not editable native text layers"},
+  "metrics": {"generation_calls":1,"generation_tool":"image_gen","started_by":"2026-10-09T10:14:05Z","completed_by":"2026-10-09T10:14:59Z","input_tokens":null,"output_tokens":null,"cost_receipt":null},
+  "state":"needs-review",
+  "queue_policy":"Manual design variant; prior images preserved; no publishing, approval, application or recipe promotion."
+}

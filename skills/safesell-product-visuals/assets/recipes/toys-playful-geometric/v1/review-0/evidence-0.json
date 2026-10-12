@@ -1,0 +1,77 @@
+{
+  "version": "1.2",
+  "sku": "405352430",
+  "category": "玩具母婴",
+  "image_type": "operation",
+  "profile": {
+    "morphology": "stacked-rings",
+    "action": "lift-ring",
+    "style": "playful-geometric",
+    "route": "ai-reference-guided"
+  },
+  "route": "ai-reference-guided",
+  "recipe": {
+    "id": "toys-playful-geometric",
+    "version": 1,
+    "mode": "explore"
+  },
+  "product_identity": {
+    "reference_files": [
+      "source.jpg",
+      "source-full.jpg"
+    ],
+    "locked": [
+      "current five-ring variant, bottom to top red/orange/yellow/lime/blue rings in decreasing sizes, white center peg, white rocker base, low-front red fisher-price label"
+    ],
+    "unknown": [
+      "hidden construction",
+      "precise dimensions",
+      "colorimetry"
+    ]
+  },
+  "message": {
+    "exact_copy": [
+      "PLAY",
+      "LIFT. STACK. REPEAT."
+    ],
+    "evidence": []
+  },
+  "composition": {
+    "action": "lift-ring",
+    "first_read": "product",
+    "camera": "near low three-quarter toy, one hand lifting smallest blue ring just above peg",
+    "visible_result": "环形递减尺度与单手拿取的互动"
+  },
+  "spatial_type": {
+    "enabled": true,
+    "relationship": "PLAY rear plane interrupted by toy/blue ring; local copy aligned with peg vertical"
+  },
+  "effects": {
+    "enabled": false,
+    "scope": null
+  },
+  "material_expression": {
+    "enabled": false,
+    "intent": "环形递减尺度与单手拿取的互动"
+  },
+  "review_set": false,
+  "design_intent": "环形递减尺度与单手拿取的互动",
+  "transfer": [
+    "可数零件与实际动作位置锁定",
+    "彩色环以递减尺度组织字物层次"
+  ],
+  "reusable_pattern": "{current_counted_toy} 锁定数量、颜色顺序和底座；单手从 {verified_axis} 拿取 {top_piece}，其余零件保留来源关系。{headline} 后层被组件遮挡，副字沿动作轴，避免新增环/浮空失接触和教育疗效宣传。",
+  "style_references": [
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/sample-07.jpg",
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/sample-09.jpg"
+  ],
+  "additional_sources": [
+    "source-full.jpg"
+  ],
+  "limits": [
+    "Supplementary current-SKU retailer image verifies rounded peg top and full ring/base configuration",
+    "One SKU and one advertising image type; not cross-product validated",
+    "source-guided visual rendering, not CAD or hidden-engineering verification",
+    "baked raster text; not marketplace primary-image compliance approval"
+  ]
+}

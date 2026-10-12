@@ -1,0 +1,118 @@
+{
+  "checks": {
+    "product_identity": {
+      "status": "pass",
+      "evidence": "候选保留浅粉圆角包体、两组同色长提带、前部横纵缝线、中央按扣小片及低位 BAGSMART 标识。"
+    },
+    "copy_and_claims": {
+      "status": "pass",
+      "evidence": "CARRY、FOLD. GO. 与 brief 一致，未添加容量、承重或收纳性能数字。"
+    },
+    "contact_and_operation": {
+      "status": "pass",
+      "evidence": "单手握住重叠提带顶端，提带从握点连续连接包体，包底悬离地面且对应阴影自然。"
+    },
+    "style_match": {
+      "status": "pass",
+      "evidence": "暖色布料框景、大衬线后层字和局部文字随材料排布呼应两个风格锚点。"
+    },
+    "product_priority": {
+      "status": "pass",
+      "evidence": "完整包体和正面细节占据主体区域，手只占上方小面积，背景道具保持次要层次。"
+    },
+    "purpose_expression": {
+      "status": "pass",
+      "evidence": "握持、绷直提带和悬垂包体形成可见承提关系，使用场景明确。"
+    },
+    "material_scale": {
+      "status": "pass",
+      "evidence": "提带织纹、包面细纹和缝线区分自然，柔软边角与轻微褶皱符合原图外观。"
+    },
+    "spatial_type": {
+      "status": "pass",
+      "evidence": "CARRY 被提带遮挡，FOLD. GO. 位于右侧并沿布料斜向折线排布。"
+    },
+    "effects": {
+      "status": "not-applicable",
+      "evidence": "brief 关闭特效，候选没有折叠轨迹或承重测试演绎。"
+    },
+    "set_consistency": {
+      "status": "not-applicable",
+      "evidence": "review_set 为 false，本次审核单张 use-scene。"
+    }
+  },
+  "nonblocking_unknowns": [
+    "包内内容、背面结构和实际尺寸未展示，且本图未作相关主张。"
+  ],
+  "judgment": "pass",
+  "main_revision": null,
+  "observed_copy": [
+    "CARRY",
+    "FOLD. GO.",
+    "BAGSMART"
+  ],
+  "scope_limits": [
+    "确认可见提拿关系，不确认承重、容量或平台发布资格。"
+  ],
+  "schema_version": 1,
+  "review_id": "10-fashion-v1-independent-review",
+  "recipe_id": "fashion-soft-editorial",
+  "recipe_version": 1,
+  "sku": "17472857032",
+  "purpose": "use-scene",
+  "reviewed_at": "2026-10-08T16:18:53.106662+00:00",
+  "profile": {
+    "morphology": "flexible-container",
+    "action": "carry",
+    "style": "soft-editorial",
+    "route": "ai-reference-guided"
+  },
+  "reviewer": {
+    "kind": "ai-vision",
+    "independent_context": true,
+    "model_or_tool": "collaboration agent /root/visual_auditor",
+    "execution_record": {
+      "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\10-fashion\\review-execution-v1.json",
+      "sha256": "75cbc748cf6494e165d6fc142f32d229124db90659abb5c7a482b10b5ffcdf5d"
+    }
+  },
+  "brief": {
+    "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\10-fashion\\brief.json",
+    "sha256": "f335bb119bad089001afbd4215bda0610d7b372c792e1d53cf1853c6eed47ec6"
+  },
+  "output": {
+    "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\10-fashion\\candidate-v1.png",
+    "sha256": "50bce4292ed9ded7fbcbed85665f63fb6179afe21f71279febedaca62b334ea5"
+  },
+  "sources": [
+    {
+      "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\10-fashion\\source.jpg",
+      "sha256": "d2ef4efe85c9109c349be9c384a2c9a9714e0ec54edc89949e06365d1bd659c4",
+      "role": "product-identity"
+    },
+    {
+      "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\10-fashion\\source-evidence.json",
+      "sha256": "74182134b49fc3a0fef113e593993b8fdf6b13e223004019f9b35b5926988729",
+      "role": "copy-evidence"
+    }
+  ],
+  "style_references": [
+    {
+      "file": "C:\\Users\\TY\\.codex\\skills\\safesell-product-visuals\\assets\\recipes\\steamer\\01-hero.png",
+      "sha256": "57d0a0881c52235af54f5470c528b617b849c83bc9bd2e6d464689da01414470",
+      "role": "style-reference"
+    },
+    {
+      "file": "C:\\Users\\TY\\.codex\\skills\\safesell-product-visuals\\assets\\sample-09.jpg",
+      "sha256": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+      "role": "style-reference"
+    }
+  ],
+  "metrics": {
+    "generation_calls": 1,
+    "revision_calls": 0,
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_receipt": null
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "checks": {
+    "product_identity": {
+      "status": "pass",
+      "evidence": "红色圆筒保留原图胡须头像、PRINGLES、ORIGINAL、5.2 oz、透明盖舌及银色上下边缘，包装薯片图案一致。"
+    },
+    "copy_and_claims": {
+      "status": "pass",
+      "evidence": "CRUNCH 的 U 完整露出、N 保留可识别竖笔与斜笔，THE ORIGINAL STACK 和包装实字可辨，无新增营养或销量主张。"
+    },
+    "contact_and_operation": {
+      "status": "not-applicable",
+      "evidence": "本图为静态包装与薯片展示，没有手部操作或入口动作。"
+    },
+    "style_match": {
+      "status": "pass",
+      "evidence": "近景商品、鲜明红色、后层巨字及局部轴向文字符合两个锚点的商业构图语言。"
+    },
+    "product_priority": {
+      "status": "pass",
+      "evidence": "完整包装占据中央主要面积，前景少量薯片强化商品识别，背景标题保持后层。"
+    },
+    "purpose_expression": {
+      "status": "pass",
+      "evidence": "包装上的弧形薯片与前景薄边鞍形薯片共同表达当前食品形态。"
+    },
+    "material_scale": {
+      "status": "pass",
+      "evidence": "前景薯片呈薄片弯曲结构，表面颗粒随近景放大，包装圆筒比例和边缘厚度合理。"
+    },
+    "spatial_type": {
+      "status": "pass",
+      "evidence": "CRUNCH 被圆筒及前景薯片局部遮挡，THE ORIGINAL STACK 沿圆筒纵轴排列。"
+    },
+    "effects": {
+      "status": "not-applicable",
+      "evidence": "brief 关闭作用点特效，画面没有运动轨迹或功能效果演绎。"
+    },
+    "set_consistency": {
+      "status": "not-applicable",
+      "evidence": "review_set 为 false，本次仅审核单张 campaign。"
+    }
+  },
+  "nonblocking_unknowns": [
+    "包装背面、内部结构和精确尺寸未展示，且画面未作相关主张。"
+  ],
+  "judgment": "pass",
+  "main_revision": null,
+  "observed_copy": [
+    "CRUNCH",
+    "THE ORIGINAL STACK",
+    "PRINGLES",
+    "ORIGINAL",
+    "POTATO CRISPS",
+    "5.2 oz"
+  ],
+  "scope_limits": [
+    "确认可见包装、食品形态与文字；不确认营养、口感实测或平台发布资格。"
+  ],
+  "schema_version": 1,
+  "review_id": "11-food-v2-independent-review",
+  "recipe_id": "food-crisp-pop",
+  "recipe_version": 1,
+  "sku": "47217461",
+  "purpose": "campaign",
+  "reviewed_at": "2026-10-08T16:27:22.211032+00:00",
+  "profile": {
+    "morphology": "packaged-food-cylinder",
+    "action": "display",
+    "style": "crisp-pop",
+    "route": "ai-reference-guided"
+  },
+  "reviewer": {
+    "kind": "ai-vision",
+    "independent_context": true,
+    "model_or_tool": "collaboration agent /root/visual_auditor",
+    "execution_record": {
+      "file": "evidence-2.json",
+      "sha256": "af985feae5432ad4a6fdf51285eef84a7687ad8caa381229d2cddf4626fed9e4"
+    }
+  },
+  "brief": {
+    "file": "evidence-0.json",
+    "sha256": "74ae46d8f40e875656b67085c0411b735f9edd5ec4ca95edb00c6c852459d41c"
+  },
+  "output": {
+    "file": "evidence-1.png",
+    "sha256": "7c6a3f203d7723383a88cf5112d8c7ff4901e2cb5ece96656f8e31227f2b5fc8"
+  },
+  "sources": [
+    {
+      "file": "evidence-3.jpg",
+      "sha256": "bccffa8a2024dd37d57141995e2aef7f362ef4b8dd33d2a837194243dc771c59",
+      "role": "product-identity"
+    },
+    {
+      "file": "evidence-4.json",
+      "sha256": "59265ff7199a897301587722694c985aea7aecc52097473eebcc18ee5fbb78e2",
+      "role": "copy-evidence"
+    }
+  ],
+  "style_references": [
+    {
+      "file": "evidence-5.jpg",
+      "sha256": "8fe160e3635e6f14a34feebe2db15220ea2d915f4da4d104bc83764c6bd03597",
+      "role": "style-reference"
+    },
+    {
+      "file": "evidence-6.jpg",
+      "sha256": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+      "role": "style-reference"
+    }
+  ],
+  "metrics": {
+    "generation_calls": 2,
+    "revision_calls": 1,
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_receipt": null
+  }
+}

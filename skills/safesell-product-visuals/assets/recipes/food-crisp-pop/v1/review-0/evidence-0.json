@@ -1,0 +1,73 @@
+{
+  "version": "1.2",
+  "sku": "47217461",
+  "category": "食品饮料",
+  "image_type": "campaign",
+  "profile": {
+    "morphology": "packaged-food-cylinder",
+    "action": "display",
+    "style": "crisp-pop",
+    "route": "ai-reference-guided"
+  },
+  "route": "ai-reference-guided",
+  "recipe": {
+    "id": "food-crisp-pop",
+    "version": 1,
+    "mode": "explore"
+  },
+  "product_identity": {
+    "reference_files": [
+      "source.jpg"
+    ],
+    "locked": [
+      "one red Pringles ORIGINAL 5.2 oz cylinder, source white moustache face, exact PRINGLES wordmark and ORIGINAL label, clear lid and silver rims, gold saddle-shaped crisps"
+    ],
+    "unknown": [
+      "hidden construction",
+      "precise dimensions",
+      "colorimetry"
+    ]
+  },
+  "message": {
+    "exact_copy": [
+      "CRUNCH",
+      "THE ORIGINAL STACK"
+    ],
+    "evidence": []
+  },
+  "composition": {
+    "action": "display",
+    "first_read": "product",
+    "camera": "close low angle red can at diagonal, saddle chips near foreground",
+    "visible_result": "弧形薯片、脆薄边缘与包装红的节奏"
+  },
+  "spatial_type": {
+    "enabled": true,
+    "relationship": "CRUNCH behind can and foreground chips; local caption along can axis"
+  },
+  "effects": {
+    "enabled": false,
+    "scope": null
+  },
+  "material_expression": {
+    "enabled": false,
+    "intent": "弧形薯片、脆薄边缘与包装红的节奏"
+  },
+  "review_set": false,
+  "design_intent": "弧形薯片、脆薄边缘与包装红的节奏",
+  "transfer": [
+    "食品脆薄边缘成为材质主次",
+    "包装与少量可辨食物形成递进层次"
+  ],
+  "reusable_pattern": "{current_food_pack} 与少量 {verified_food_shape} 近景组合，{headline} 在后层由包装/食物遮挡；副字顺包装主轴。包装规格照当前来源，不制造健康、营养或销量数据。",
+  "style_references": [
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/sample-09.jpg",
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/sample-07.jpg"
+  ],
+  "additional_sources": [],
+  "limits": [
+    "One SKU and one advertising image type; not cross-product validated",
+    "source-guided visual rendering, not CAD or hidden-engineering verification",
+    "baked raster text; not marketplace primary-image compliance approval"
+  ]
+}

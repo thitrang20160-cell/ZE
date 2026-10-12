@@ -1,0 +1,73 @@
+{
+  "version": "1.2",
+  "sku": "251417300",
+  "category": "工具家装",
+  "image_type": "campaign",
+  "profile": {
+    "morphology": "rigid-rotary-tool",
+    "action": "display",
+    "style": "industrial-axis",
+    "route": "ai-reference-guided"
+  },
+  "route": "ai-reference-guided",
+  "recipe": {
+    "id": "tools-industrial-axis",
+    "version": 1,
+    "mode": "explore"
+  },
+  "product_identity": {
+    "reference_files": [
+      "source.jpg"
+    ],
+    "locked": [
+      "yellow/black DEWALT DCD777 bare drill, silver black ribbed chuck, numbered torque collar, source vents, trigger and black grip, bare battery interface without battery"
+    ],
+    "unknown": [
+      "hidden construction",
+      "precise dimensions",
+      "colorimetry"
+    ]
+  },
+  "message": {
+    "exact_copy": [
+      "DRIVE",
+      "BUILT TO GET HANDS ON"
+    ],
+    "evidence": []
+  },
+  "composition": {
+    "action": "display",
+    "first_read": "product",
+    "camera": "large low three-quarter diagonal drill axis, complete bare tool",
+    "visible_result": "转轴与工业材质的斜向力量"
+  },
+  "spatial_type": {
+    "enabled": true,
+    "relationship": "DRIVE behind chuck/body; local caption parallel to chuck axis"
+  },
+  "effects": {
+    "enabled": false,
+    "scope": null
+  },
+  "material_expression": {
+    "enabled": false,
+    "intent": "转轴与工业材质的斜向力量"
+  },
+  "review_set": false,
+  "design_intent": "转轴与工业材质的斜向力量",
+  "transfer": [
+    "旋转主轴穿过后层字",
+    "握柄橡胶与机身塑胶金属分离"
+  ],
+  "reusable_pattern": "{current_rotary_tool} 保持当前裸机/套装状态，以 {visible_axis} 贯穿后层 {headline}；副字沿主轴，外壳细纹和金属边界精确，不加未含电池或未知工作效果。",
+  "style_references": [
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/sample-07.jpg",
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/sample-09.jpg"
+  ],
+  "additional_sources": [],
+  "limits": [
+    "One SKU and one advertising image type; not cross-product validated",
+    "source-guided visual rendering, not CAD or hidden-engineering verification",
+    "baked raster text; not marketplace primary-image compliance approval"
+  ]
+}

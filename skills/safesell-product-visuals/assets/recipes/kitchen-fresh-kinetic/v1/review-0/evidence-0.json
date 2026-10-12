@@ -1,0 +1,72 @@
+{
+  "version": "1.2",
+  "sku": "32958517",
+  "category": "厨房厨具",
+  "image_type": "operation",
+  "profile": {
+    "morphology": "transparent-bowl-pump",
+    "action": "press-pump",
+    "style": "fresh-kinetic",
+    "route": "ai-reference-guided"
+  },
+  "route": "ai-reference-guided",
+  "recipe": {
+    "id": "kitchen-fresh-kinetic",
+    "version": 1,
+    "mode": "explore"
+  },
+  "product_identity": {
+    "reference_files": [
+      "source.jpg"
+    ],
+    "locked": [
+      "transparent round bowl and lid, white slotted basket, white central cylindrical pump, black round cap with red OXO badge, offset black brake"
+    ],
+    "unknown": [
+      "hidden construction",
+      "precise dimensions",
+      "colorimetry"
+    ]
+  },
+  "message": {
+    "exact_copy": [
+      "SPIN",
+      "PRESS. SPIN. SERVE."
+    ],
+    "evidence": []
+  },
+  "composition": {
+    "action": "press-pump",
+    "first_read": "product",
+    "camera": "close low three-quarter bowl dominant, one hand above cap",
+    "visible_result": "按压触点、旋转轴和透明容器层次"
+  },
+  "spatial_type": {
+    "enabled": true,
+    "relationship": "Giant SPIN behind bowl with bowl edge occlusion; local instruction tangent to lid"
+  },
+  "effects": {
+    "enabled": true,
+    "scope": "two short fine graphic arcs outside bowl rim illustrating rotation, no measured speed or water jet"
+  },
+  "material_expression": {
+    "enabled": false,
+    "intent": "按压触点、旋转轴和透明容器层次"
+  },
+  "review_set": false,
+  "design_intent": "按压触点、旋转轴和透明容器层次",
+  "transfer": [
+    "手掌只参与真实泵顶按压",
+    "圆形动作决定短弧和字向，蔬菜为内容物"
+  ],
+  "reusable_pattern": "{current_pump_product} 的 {verified_cap} 被单手按压，{transparent_body} 展示 {contents}；{headline} 位于产品后层，{local_copy} 顺顶面切线；用少量短弧表现旋转广告意图，不造性能数字。",
+  "style_references": [
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/sample-09.jpg"
+  ],
+  "additional_sources": [],
+  "limits": [
+    "One SKU and one advertising image type; not cross-product validated",
+    "source-guided visual rendering, not CAD or hidden-engineering verification",
+    "baked raster text; not marketplace primary-image compliance approval"
+  ]
+}

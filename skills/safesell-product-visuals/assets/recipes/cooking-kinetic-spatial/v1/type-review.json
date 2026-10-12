@@ -1,0 +1,16 @@
+{
+  "layout_verdict": "pass",
+  "overall_verdict": "revise",
+  "auditor": "independent-ai-vision",
+  "checks": [
+    {"name":"exact_copy","status":"pass","detail":"FLAVOR、STIR UP、SINGLE BURNER 均逐字可辨，没有漏字、错拼或画框截断；FLAVOR 的局部遮挡未隐藏完整字母。"},
+    {"name":"rear_layer_type","status":"pass","detail":"FLAVOR 位于食材和汤汁之后，前景土豆、叶片及液滴形成明确遮挡，字物层次成立。"},
+    {"name":"action_axis","status":"pass","detail":"STIR UP 沿勺柄与甩动方向向右上延伸，位置与动作相关。"},
+    {"name":"front_edge_axis","status":"pass","detail":"SINGLE BURNER 及下划线沿电炉前缘方向向右下倾斜，没有随机旋转。"},
+    {"name":"identity_preservation","status":"pass","detail":"对比底图，品牌、红灯、OFF/HI 旋钮、可见盘管与引线保持可辨，没有发现因加字造成的关键商品结构漂移。"},
+    {"name":"hand_spoon_preservation","status":"pass","detail":"握勺接触与食物飞跃方向保留，没有新增明显手部或勺柄错误。"},
+    {"name":"pan_coil_contact","status":"unknown","detail":"锅底承托点仍未看清，加字没有提供新的接触证据。"},
+    {"name":"common_camera","status":"unknown","detail":"锅炉主体与背景台面的共同机位疑点仍在，排版通过不能替代这项核验。"}
+  ],
+  "remaining": ["文字交互与随画面走的排版要求已实现。","整体仍保留锅底承托和背景透视两项阻断未知，不能标为整图准确性通过。"]
+}

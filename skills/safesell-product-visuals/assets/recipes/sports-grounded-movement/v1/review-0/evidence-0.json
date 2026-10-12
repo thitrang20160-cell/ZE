@@ -1,0 +1,73 @@
+{
+  "version": "1.2",
+  "sku": "685169867",
+  "category": "运动健身",
+  "image_type": "material",
+  "profile": {
+    "morphology": "flexible-sheet",
+    "action": "unroll",
+    "style": "grounded-movement",
+    "route": "ai-reference-guided"
+  },
+  "route": "ai-reference-guided",
+  "recipe": {
+    "id": "sports-grounded-movement",
+    "version": 1,
+    "mode": "explore"
+  },
+  "product_identity": {
+    "reference_files": [
+      "source.jpg"
+    ],
+    "locked": [
+      "purple finely ridged foam rectangular yoga mat, actual thin ridges, original black carrying strap when displayed, small silver Gaiam Essentials logo"
+    ],
+    "unknown": [
+      "hidden construction",
+      "precise dimensions",
+      "colorimetry"
+    ]
+  },
+  "message": {
+    "exact_copy": [
+      "UNROLL",
+      "MAKE ROOM"
+    ],
+    "evidence": []
+  },
+  "composition": {
+    "action": "unroll",
+    "first_read": "product",
+    "camera": "floor-level near rolling end and continuous unfolded sheet",
+    "visible_result": "卷曲到铺开的连续柔性材质动作"
+  },
+  "spatial_type": {
+    "enabled": true,
+    "relationship": "UNROLL behind curl with mat overlap; MAKE ROOM along straight mat edge"
+  },
+  "effects": {
+    "enabled": false,
+    "scope": null
+  },
+  "material_expression": {
+    "enabled": true,
+    "intent": "卷曲到铺开的连续柔性材质动作"
+  },
+  "review_set": false,
+  "design_intent": "卷曲到铺开的连续柔性材质动作",
+  "transfer": [
+    "材料连续弯曲而非夸张截面",
+    "圆卷与展开平面形成近远尺度"
+  ],
+  "reusable_pattern": "{current_flexible_sheet} 从近景卷曲端连续展开到地面，{headline} 被卷端遮挡，{local_copy} 顺材料边缘；纹理尺度与当前来源匹配，不造内部层或厚度测试。",
+  "style_references": [
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/sample-08.jpg",
+    "C:/Users/TY/.codex/skills/safesell-product-visuals/assets/sample-07.jpg"
+  ],
+  "additional_sources": [],
+  "limits": [
+    "One SKU and one advertising image type; not cross-product validated",
+    "source-guided visual rendering, not CAD or hidden-engineering verification",
+    "baked raster text; not marketplace primary-image compliance approval"
+  ]
+}

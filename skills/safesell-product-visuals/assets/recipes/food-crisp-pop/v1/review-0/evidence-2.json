@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "review_id": "11-food-v2-independent-review",
+  "output_sha256": "7c6a3f203d7723383a88cf5112d8c7ff4901e2cb5ece96656f8e31227f2b5fc8",
+  "model_or_tool": "collaboration agent /root/visual_auditor",
+  "independent_context": true,
+  "returned_judgment": "pass",
+  "task_id": "/root/visual_auditor",
+  "raw_response": {
+    "file": "D:\\CODEX\\saixing-erp-ui-demo\\output\\imagegen\\category-regression-v1\\11-food\\reviewer-response-v2.json",
+    "sha256": "5ca787616b273ab139f2768f8b892d9641ab9fc1806f5e0db81c6bd03ff1a55d"
+  },
+  "recorded_at": "2026-10-08T16:27:22.211032+00:00"
+}

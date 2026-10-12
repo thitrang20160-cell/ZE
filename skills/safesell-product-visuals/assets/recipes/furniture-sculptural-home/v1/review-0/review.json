@@ -1,0 +1,117 @@
+{
+  "checks": {
+    "product_identity": {
+      "status": "pass",
+      "evidence": "v3 保留 source.jpg 的浅紫厚圆桌面、窄扁波浪立柱及两级圆底座，未见关键轮廓或配件改动。"
+    },
+    "copy_and_claims": {
+      "status": "pass",
+      "evidence": "实际可读文案为 WAVE、A LITTLE PLAY，与 brief 一致，无新增数字或性能主张。"
+    },
+    "contact_and_operation": {
+      "status": "not-applicable",
+      "evidence": "画面为静态展示，没有操作动作，底座接地阴影清晰。"
+    },
+    "style_match": {
+      "status": "pass",
+      "evidence": "暖色场景、柔和产品高光和后方立体大字符合所给风格参照的商业质感。"
+    },
+    "product_priority": {
+      "status": "pass",
+      "evidence": "浅紫桌子居中完整展示，与暖米色背景区分，背景大字被桌面遮挡。"
+    },
+    "purpose_expression": {
+      "status": "pass",
+      "evidence": "完整边桌及连续弯曲支撑清楚呈现，表达了 campaign 所需的雕塑形态。"
+    },
+    "material_scale": {
+      "status": "pass",
+      "evidence": "桌面、立柱及底座维持原图的细腻缎光外观，未添加不符纹理。"
+    },
+    "spatial_type": {
+      "status": "pass",
+      "evidence": "WAVE 保持后方遮挡关系，A LITTLE PLAY 整行位于桌面范围内且字高随桌面平面作了透视压缩。"
+    },
+    "effects": {
+      "status": "not-applicable",
+      "evidence": "brief 关闭特效，画面仅有场景光照与阴影。"
+    },
+    "set_consistency": {
+      "status": "not-applicable",
+      "evidence": "review_set 为 false，本次审核 v3 单图。"
+    }
+  },
+  "nonblocking_unknowns": [
+    "隐藏连接、实际尺寸和精确色度无法确认，且本图未作相关主张。"
+  ],
+  "judgment": "pass",
+  "main_revision": null,
+  "observed_copy": [
+    "WAVE",
+    "A LITTLE PLAY"
+  ],
+  "scope_limits": [
+    "适用于单张广告概念图，不确认隐藏结构、实测性能或平台发布资格。"
+  ],
+  "schema_version": 1,
+  "review_id": "01-furniture-v3-independent-review",
+  "recipe_id": "furniture-sculptural-home",
+  "recipe_version": 1,
+  "sku": "15689309055",
+  "purpose": "campaign",
+  "reviewed_at": "2026-10-08T15:22:46.319948+00:00",
+  "profile": {
+    "morphology": "rigid-pedestal",
+    "action": "support",
+    "style": "sculptural-home",
+    "route": "ai-reference-guided"
+  },
+  "reviewer": {
+    "kind": "ai-vision",
+    "independent_context": true,
+    "model_or_tool": "collaboration agent /root/visual_auditor",
+    "execution_record": {
+      "file": "evidence-2.json",
+      "sha256": "963287c807c1f7fa39dc5788a98606f3686584391a1081e832de584ca9c28dd6"
+    }
+  },
+  "brief": {
+    "file": "evidence-0.json",
+    "sha256": "607a8b545504f8601543a335d181be31d6ac383176ed11ebe77a3485e2463b92"
+  },
+  "output": {
+    "file": "evidence-1.png",
+    "sha256": "f3cd4fd173ba55053653f8895da91e1e22d44694c3c687927f914dc3fbad4441"
+  },
+  "sources": [
+    {
+      "file": "evidence-3.jpg",
+      "sha256": "4637046f0de6697e1c02f31242887a8192f534c2627bf50abf1ff68f6c7f9894",
+      "role": "product-identity"
+    },
+    {
+      "file": "evidence-4.json",
+      "sha256": "56784342ffcb98d0a43ac10d63ebc0d16b06b50ac508461884056bbffdf9cf13",
+      "role": "copy-evidence"
+    }
+  ],
+  "style_references": [
+    {
+      "file": "evidence-5.png",
+      "sha256": "57d0a0881c52235af54f5470c528b617b849c83bc9bd2e6d464689da01414470",
+      "role": "style-reference"
+    },
+    {
+      "file": "evidence-6.jpg",
+      "sha256": "371ae9d52b0eb31caec0067cbbe9532a02f1022eecc79a51d579abd19af7a1f1",
+      "role": "style-reference"
+    }
+  ],
+  "metrics": {
+    "generation_calls": 3,
+    "revision_calls": 2,
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost_receipt": null
+  }
+}

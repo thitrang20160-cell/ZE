@@ -1,0 +1,16 @@
+{
+  "verdict": "revise",
+  "auditor": "independent-ai-vision",
+  "checks": [
+    {"name":"product_identity","status":"pass","detail":"可见黑基座、橙色盘管与引线、银盘、红灯、Elite Gourmet 标志和 OFF/HI 旋钮保留，材质与主要比例未见明显漂移。"},
+    {"name":"copy_and_claims","status":"pass","detail":"没有新增文案或性能数字，产品原有标识可辨。"},
+    {"name":"hand_spoon_operation","status":"pass","detail":"手指握住连续勺柄，勺碗向侧方扬起；食材与汤汁从勺碗附近延伸向左前景，动作发源可辨。"},
+    {"name":"pan_coil_contact","status":"unknown","detail":"局部放大可见锅底前缘贴近内圈，但实际承托点仍被锅身遮挡，未能确认真正贴靠；不能认定旧版接触疑点已修复。"},
+    {"name":"product_priority","status":"pass","detail":"底部电炉轮廓、品牌、红灯及旋钮清楚，前景食物没有遮住关键识别部位。"},
+    {"name":"design_tension","status":"pass","detail":"朝镜头放大的食物、侧甩勺、汤汁弧线及斜构图均已实现，比旧版静态搅拌明显更有动势；属于本次授权的广告夸张。"},
+    {"name":"physical_plausibility","status":"unknown","detail":"手勺、汤汁和局部光影合理；锅底承托未确认，且背景立线与锅炉主体的倾斜观感不完全协调，整体机位一致性尚不明确。"}
+  ],
+  "blocking_unknowns": ["锅底与盘管的实际承托接触尚未确认。","锅、炉和背景台面的共同机位关系不够明确。"],
+  "comparison": {"improvements":"冲镜头、甩勺、斜画面和下方产品可辨四项要求均有实际改善。","remaining":"设计动作已实现，承托接触与整体机位仍不足以通过物理可信性审核。"},
+  "main_revision": "优先清楚展示至少一处锅底贴合盘管的承托边缘，保留当前冲镜头食物、侧甩勺和下方产品识别。"
+}
